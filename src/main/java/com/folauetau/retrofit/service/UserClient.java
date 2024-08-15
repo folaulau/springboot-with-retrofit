@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import lombok.extern.slf4j.Slf4j;
 import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import retrofit2.Retrofit;
@@ -36,6 +37,8 @@ public class UserClient extends AbstractRetrofitApiClient{
         log.info("Creating custom OkHttpClient");
 
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
+
+        builder.addInterceptor(new HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY));
 
         Optional.ofNullable(readTimeout).ifPresentOrElse(
             timeout -> {
