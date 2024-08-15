@@ -1,5 +1,6 @@
 package com.folauetau.retrofit.service;
 
+import java.time.Duration;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
@@ -20,6 +21,8 @@ public class StudentClient extends UserClient{
 
     public void testRun(){
         System.out.println("StudentClient is running");
+
+        setReadTimeout(Duration.ofSeconds(30));
 
         RapidApiService service = createService(RapidApiService.class);
 

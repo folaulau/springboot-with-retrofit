@@ -1,5 +1,7 @@
 package com.folauetau.retrofit.service;
 
+import java.time.Duration;
+import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -17,6 +19,8 @@ public class UserClient extends AbstractRetrofitApiClient{
 
     private final Set<Class<?>> supportedServices;
 
+    private Duration readTimeout = null;
+
     public UserClient(Set<Class<?>> supportedServices) {
         this.supportedServices = supportedServices;
     }
@@ -28,27 +32,33 @@ public class UserClient extends AbstractRetrofitApiClient{
 
     @Nullable
     @Override
-    public OkHttpClient getOkHttpClient() {
-        log.info("getOkHttpClient()");
-        return createOkHttpClient();
-    }
-
-    @Nullable
-    @Override
     public OkHttpClient createOkHttpClient() {
         log.info("Creating custom OkHttpClient");
 
-        OkHttpClient customClient = new OkHttpClient.Builder()
-            .readTimeout(30, TimeUnit.SECONDS) // Custom read timeout
-            .build();
+        OkHttpClient.Builder builder = new OkHttpClient.Builder();
 
-        return customClient;
+        Optional.ofNullable(readTimeout).ifPresentOrElse(
+            timeout -> {
+                log.info("Setting custom read timeout to {} seconds", timeout.getSeconds());
+                builder.readTimeout(timeout);
+            },
+            () -> {
+                log.info("Setting default read timeout");
+                builder.readTimeout(Duration.ofSeconds(30));
+            }
+        );
+
+        return builder.build();
     }
 
     @Override
     public <T> T getService(@NotNull Class<T> serviceClass) {
         log.info("getService");
         return null;
+    }
+
+    public void setReadTimeout(Duration readTimeout) {
+        this.readTimeout = readTimeout;
     }
 
     @Override
