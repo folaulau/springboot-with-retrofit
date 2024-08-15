@@ -35,7 +35,7 @@ class SpringbootWithRetrofitApplicationTests {
 		Retrofit retrofit = new Retrofit.Builder()
 				.client(customClient)
 				.addConverterFactory(GsonConverterFactory.create(gson))
-				.baseUrl("http://localhost:8084/v1/")
+				.baseUrl("https://api.blip-delivery.com/v1/")
 				.build();
 
 		RapidApiService service = retrofit.create(RapidApiService.class);
