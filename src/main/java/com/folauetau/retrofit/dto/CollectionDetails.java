@@ -11,6 +11,8 @@ public class CollectionDetails implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private String parentCollectionID;
+    private String parentCollectionPath;
     private String path;
     private String collectionID;
     private String language;
@@ -24,6 +26,7 @@ public class CollectionDetails implements Serializable {
     private List<SecurityConstraint> securityConstraints;
     private List<Child> children;
     private List<AssetWrapper> assets;
+    private String fileName;
 
     public String getPublicTitle() {
         return metadata.stream()

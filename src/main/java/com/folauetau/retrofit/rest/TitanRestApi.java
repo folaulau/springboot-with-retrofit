@@ -37,7 +37,7 @@ public class TitanRestApi {
     }
 
     public TitanApiResponse getCollection(String collectionID) {
-        System.out.println("url: " + retrofit.baseUrl().toString()+collectionID+"\n");
+//        System.out.println("url: " + retrofit.baseUrl().toString()+collectionID+"\n");
         TitanService titanService = retrofit.create(TitanService.class);
         TitanApiResponse response = null;
         try {

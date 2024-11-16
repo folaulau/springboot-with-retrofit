@@ -4,12 +4,12 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
+import java.util.Map;
 import java.util.TimeZone;
+import java.util.concurrent.ConcurrentHashMap;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.exc.StreamWriteException;
-import com.fasterxml.jackson.databind.DatabindException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -26,30 +26,64 @@ public class TitanApiTests {
     ObjectMapper objectMapper = getObjectMapper();
     TitanRestApi titanRestApi = new TitanRestApi();
 
+    Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
+
     private String fileStoragePath = "json_files";
 
     @Test
     void downloadTitanCollections() throws JsonProcessingException {
-        System.out.println("TitanApiTests.testTitanApi");
+
+        File directory = new File(fileStoragePath);
+
+        if (directory.exists()) {
+            directory.delete();
+        }
+
+        directory.mkdirs();
+
+        System.out.println("downloading...");
 
         // parent collection
         String collectionId = "22e3232e384c8650311b2940336759a89b8d6f8b";
 
-//        TitanApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
-//        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
-        getCollectionDetails(collectionId);
-//        Result result = titanApiResponse.getResult();
-//
-//        for(Child child : result.getChildren()) {
-//            System.out.println("child: " + toJson(child));
-//        }
+        // track how long this takes
+        long startTime = System.currentTimeMillis();
+        getCollectionDetails(null, collectionId);
+
+        long endTime = System.currentTimeMillis();
+
+        long duration = (endTime - startTime);
+
+        long minutes = duration / 60000;
+        System.out.println("Duration: " + minutes + " minutes");
+
     }
 
-    CollectionDetails getCollectionDetails(String collectionId) {
+    CollectionDetails getCollectionDetails(CollectionDetails parent, String collectionId) {
+
+        if(collectionId == null || collectionId.trim().isEmpty()) {
+            return null;
+        }
+
         TitanApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
-        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
+//        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
+
+        if(titanApiResponse == null || titanApiResponse.getResult() == null) {
+            return null;
+        }
 
         CollectionDetails collectionDetails = titanApiResponse.getResult();
+
+        if(collectionMap.containsKey(collectionDetails.getCollectionID())) {
+            System.out.println("Collection already processed: " + collectionDetails.getCollectionID());
+        }else {
+            collectionMap.put(collectionDetails.getCollectionID(), 1);
+        }
+
+        if(parent != null) {
+            collectionDetails.setParentCollectionID(parent.getCollectionID());
+            collectionDetails.setParentCollectionPath(parent.getPath());
+        }
 
         boolean hasChildren = collectionDetails.getChildren() != null && collectionDetails.getChildren().size() > 0;
 
@@ -57,16 +91,24 @@ public class TitanApiTests {
             int size = collectionDetails.getChildren().size();
             for (int i = 0; i < size; i++) {
                 Child child = collectionDetails.getChildren().get(i);
-                child.setFileName(child.getCollectionID().toLowerCase()+".json");
+                String childFileName = child.getCollectionID().toLowerCase()+".json";
+//                if(Files.exists(Paths.get(fileStoragePath+"/"+childFileName))) {
+//                    System.out.println("File already exists: " + childFileName+", path: "+child.getPath());
+//                }
+
+                child.setFileName(childFileName);
             }
         }
 
         String fileName = collectionDetails.getCollectionID().toLowerCase()+".json";
+
+        collectionDetails.setFileName(fileName);
+
         try {
             // Write the object to a JSON file
             File jsonFile  = new File(fileStoragePath+"/"+fileName);
             objectMapper.writeValue(jsonFile, collectionDetails);
-            System.out.println("JSON file created successfully: " + jsonFile.getAbsolutePath());
+//            System.out.println("JSON file created successfully: " + jsonFile.getAbsolutePath());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -75,16 +117,12 @@ public class TitanApiTests {
             int size = collectionDetails.getChildren().size();
             for (int i = 0; i < size; i++) {
                 Child child = collectionDetails.getChildren().get(i);
-                getCollectionDetails(child.getCollectionID());
+                getCollectionDetails(collectionDetails, child.getCollectionID());
             }
         }
 
         return collectionDetails;
     }
-
-
-
-
 
     public String toJson(Object object) {
         try {
