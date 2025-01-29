@@ -1,0 +1,86 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Samoan  - Images",
+  "collectionID" : "af39cf6a5d684558955ca9be07d535fe443d118e",
+  "language" : "smo",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-31T10:09:07.411-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/af39cf6a5d684558955ca9be07d535fe443d118e"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "96"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "smo"
+  }, {
+    "key" : "publicTitle",
+    "value" : "ata",
+    "language" : "smo"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Samoan  - Images/Book of Mormon Videos Images",
+    "collectionID" : "a6b9d2f47b054522a3f58f9362c62e50",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-31T10:09:33.870-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a6b9d2f47b054522a3f58f9362c62e50"
+    } ],
+    "fileName" : "a6b9d2f47b054522a3f58f9362c62e50.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan  - Images/Easter",
+    "collectionID" : "999b7959687b4229b467b6c446590898",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-31T10:33:10.924-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/999b7959687b4229b467b6c446590898"
+    } ],
+    "fileName" : "999b7959687b4229b467b6c446590898.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan  - Images/Gospel Art",
+    "collectionID" : "9168d78287074417adef69a90d4ae0c6",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-31T10:33:56.560-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9168d78287074417adef69a90d4ae0c6"
+    } ],
+    "fileName" : "9168d78287074417adef69a90d4ae0c6.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan  - Images/Seminary and Institute",
+    "collectionID" : "d0425d2ba21f4274860c6937d7216ebc",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-31T10:57:58.902-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d0425d2ba21f4274860c6937d7216ebc"
+    } ],
+    "fileName" : "d0425d2ba21f4274860c6937d7216ebc.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan  - Images/Church Leaders",
+    "collectionID" : "d3fd9b47c19c4a40a7eba938f46a82ea",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-31T10:25:37.438-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d3fd9b47c19c4a40a7eba938f46a82ea"
+    } ],
+    "fileName" : "d3fd9b47c19c4a40a7eba938f46a82ea.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "af39cf6a5d684558955ca9be07d535fe443d118e.json",
+  "name" : "Samoan  - Images",
+  "publicTitle" : "ata"
+}

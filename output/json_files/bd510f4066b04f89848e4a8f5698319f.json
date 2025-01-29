@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Tongan - Video",
+  "collectionID" : "bd510f4066b04f89848e4a8f5698319f",
+  "language" : "ton",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-21T13:13:52.688-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bd510f4066b04f89848e4a8f5698319f"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "109"
+  }, {
+    "key" : "description",
+    "value" : "Ko e tauhiʻanga lahi taha ʻo e ngaahi vitioó kuo faʻu ʻe he Siasi ʻo Sīsū Kalaisi ʻo e Kau Māʻoniʻoni ʻo e Ngaahi ʻAho Kimui ní, kau ai ʻa e ngaahi vitiō ki he ngaahi lēsoní, toʻu tupú, fānaú, fakalaumālié, akoʻí, mo e ngaahi meʻa lahi ange.",
+    "language" : "ton"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "ton"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Vitiō",
+    "language" : "ton"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Tongan - Video/Church History",
+    "collectionID" : "065e5d957f274ade989e32fe33900d9974065e76",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:24:11.961-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/065e5d957f274ade989e32fe33900d9974065e76"
+    } ],
+    "fileName" : "065e5d957f274ade989e32fe33900d9974065e76.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Community Outreach",
+    "collectionID" : "d398c22e96374f3aa24d4a9f65141e8bd272d413",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:56:46.063-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d398c22e96374f3aa24d4a9f65141e8bd272d413"
+    } ],
+    "fileName" : "d398c22e96374f3aa24d4a9f65141e8bd272d413.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Broadcasts",
+    "collectionID" : "71540fb4432e426bab6f23ee10cc1849dc8a5c5a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:35:19.757-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/71540fb4432e426bab6f23ee10cc1849dc8a5c5a"
+    } ],
+    "fileName" : "71540fb4432e426bab6f23ee10cc1849dc8a5c5a.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Callings and Trainings",
+    "collectionID" : "18b00d95be254d18a1c5af4100c0ade264bfa29b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:56:46.063-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/18b00d95be254d18a1c5af4100c0ade264bfa29b"
+    } ],
+    "fileName" : "18b00d95be254d18a1c5af4100c0ade264bfa29b.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Children",
+    "collectionID" : "3a791db172fe456584c2c210dc9bf7f9c6ca1051",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:56:46.063-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3a791db172fe456584c2c210dc9bf7f9c6ca1051"
+    } ],
+    "fileName" : "3a791db172fe456584c2c210dc9bf7f9c6ca1051.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Family History",
+    "collectionID" : "6f603eddc43d4b0e878d8884dcc6d4ffc0ec629c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:23:11.181-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/6f603eddc43d4b0e878d8884dcc6d4ffc0ec629c"
+    } ],
+    "fileName" : "6f603eddc43d4b0e878d8884dcc6d4ffc0ec629c.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Inspiration",
+    "collectionID" : "ecfa8d4e065a434ebb033567cec1d43e62e370d5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:56:46.063-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ecfa8d4e065a434ebb033567cec1d43e62e370d5"
+    } ],
+    "fileName" : "ecfa8d4e065a434ebb033567cec1d43e62e370d5.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Life Help",
+    "collectionID" : "a4aa681ebe27431c8594b38ec8fcfddc752bcf90",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-21T13:14:17.743-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a4aa681ebe27431c8594b38ec8fcfddc752bcf90"
+    } ],
+    "fileName" : "a4aa681ebe27431c8594b38ec8fcfddc752bcf90.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/People",
+    "collectionID" : "d5fa80d9c7fa4864aaabe674ee370915950483e3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:56:46.063-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d5fa80d9c7fa4864aaabe674ee370915950483e3"
+    } ],
+    "fileName" : "d5fa80d9c7fa4864aaabe674ee370915950483e3.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "0aeaffce74fc44f795c9a8690752f48ed0fbf514",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-30T00:02:56.236-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0aeaffce74fc44f795c9a8690752f48ed0fbf514"
+    } ],
+    "fileName" : "0aeaffce74fc44f795c9a8690752f48ed0fbf514.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Sharing the Gospel",
+    "collectionID" : "838f81cc9be74d20904c64248b5ebd7c30b599f4",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:19:56.637-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/838f81cc9be74d20904c64248b5ebd7c30b599f4"
+    } ],
+    "fileName" : "838f81cc9be74d20904c64248b5ebd7c30b599f4.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Teaching and Lessons",
+    "collectionID" : "f8f3c92057614a878cc2b3f57de38992b4a58fcb",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:26:24.158-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f8f3c92057614a878cc2b3f57de38992b4a58fcb"
+    } ],
+    "fileName" : "f8f3c92057614a878cc2b3f57de38992b4a58fcb.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Topics",
+    "collectionID" : "80660001c1f441ebbd77b4e0511f50aa79ec3f1f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T13:52:50.809-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/80660001c1f441ebbd77b4e0511f50aa79ec3f1f"
+    } ],
+    "fileName" : "80660001c1f441ebbd77b4e0511f50aa79ec3f1f.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Youth",
+    "collectionID" : "5217efdbc2284bfea0b8de42b641c200f8f37903",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T16:21:43.380-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5217efdbc2284bfea0b8de42b641c200f8f37903"
+    } ],
+    "fileName" : "5217efdbc2284bfea0b8de42b641c200f8f37903.json"
+  }, {
+    "path" : "Mobile Media Library/Tongan - Video/Holidays",
+    "collectionID" : "f355978e375d42979250a9f307a1930c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-22T12:22:56.298-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f355978e375d42979250a9f307a1930c"
+    } ],
+    "fileName" : "f355978e375d42979250a9f307a1930c.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "bd510f4066b04f89848e4a8f5698319f.json",
+  "name" : "Tongan - Video",
+  "publicTitle" : "Vitiō",
+  "description" : "Ko e tauhiʻanga lahi taha ʻo e ngaahi vitioó kuo faʻu ʻe he Siasi ʻo Sīsū Kalaisi ʻo e Kau Māʻoniʻoni ʻo e Ngaahi ʻAho Kimui ní, kau ai ʻa e ngaahi vitiō ki he ngaahi lēsoní, toʻu tupú, fānaú, fakalaumālié, akoʻí, mo e ngaahi meʻa lahi ange."
+}

@@ -1,0 +1,210 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Mandarin Traditional - Video",
+  "collectionID" : "21ca05f4aa404aacaa7942525a42c579",
+  "language" : "zho",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-05T15:46:48.316-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/21ca05f4aa404aacaa7942525a42c579"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "61"
+  }, {
+    "key" : "description",
+    "value" : "耶穌基督後期聖徒教會所製作之影片的最大收藏集，收錄了課程、青少年、兒童、靈感、訓練方面等影片。"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video"
+  }, {
+    "key" : "publicTitle",
+    "value" : "影片"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "zho"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "zho"
+  }, {
+    "key" : "publicTitle",
+    "value" : "影片",
+    "language" : "zho"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Community Outreach",
+    "collectionID" : "946f5b3136bf41d585fe65353e96e0030b04fdf2",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/946f5b3136bf41d585fe65353e96e0030b04fdf2"
+    } ],
+    "fileName" : "946f5b3136bf41d585fe65353e96e0030b04fdf2.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Broadcasts",
+    "collectionID" : "c3aafc0d2e0649cc90d1da85236b14e97d1a4e26",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T09:45:56.872-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c3aafc0d2e0649cc90d1da85236b14e97d1a4e26"
+    } ],
+    "fileName" : "c3aafc0d2e0649cc90d1da85236b14e97d1a4e26.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Callings and Trainings",
+    "collectionID" : "5f4d8af347d743fe86bdaa98577c80ae8278ea18",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5f4d8af347d743fe86bdaa98577c80ae8278ea18"
+    } ],
+    "fileName" : "5f4d8af347d743fe86bdaa98577c80ae8278ea18.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Children",
+    "collectionID" : "ab1239130f0b4c31957cc92fa662bdc57d410d72",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ab1239130f0b4c31957cc92fa662bdc57d410d72"
+    } ],
+    "fileName" : "ab1239130f0b4c31957cc92fa662bdc57d410d72.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Church History",
+    "collectionID" : "96db58e10ef24284ab6ecfaf20b5f83d4ccfe160",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/96db58e10ef24284ab6ecfaf20b5f83d4ccfe160"
+    } ],
+    "fileName" : "96db58e10ef24284ab6ecfaf20b5f83d4ccfe160.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Family History",
+    "collectionID" : "1d31fbd9407b4c0ea9e11d1f308b6691d3033897",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1d31fbd9407b4c0ea9e11d1f308b6691d3033897"
+    } ],
+    "fileName" : "1d31fbd9407b4c0ea9e11d1f308b6691d3033897.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Inspiration",
+    "collectionID" : "e459a500671e4db283af9375b4f8985a1d046098",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-25T14:09:30.722-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e459a500671e4db283af9375b4f8985a1d046098"
+    } ],
+    "fileName" : "e459a500671e4db283af9375b4f8985a1d046098.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Life Help",
+    "collectionID" : "d5b6040ec6af44be9a117be22cf4ad72c4a67678",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-07-30T14:16:27.508-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d5b6040ec6af44be9a117be22cf4ad72c4a67678"
+    } ],
+    "fileName" : "d5b6040ec6af44be9a117be22cf4ad72c4a67678.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/People",
+    "collectionID" : "b7a4dce07e85414db69e41d5f14da3e963a5bad7",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b7a4dce07e85414db69e41d5f14da3e963a5bad7"
+    } ],
+    "fileName" : "b7a4dce07e85414db69e41d5f14da3e963a5bad7.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "420043e4e8924fdda4828cb62611ec680e9df9ae",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-25T14:12:22.195-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/420043e4e8924fdda4828cb62611ec680e9df9ae"
+    } ],
+    "fileName" : "420043e4e8924fdda4828cb62611ec680e9df9ae.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Sharing the Gospel",
+    "collectionID" : "f593945e97a749b7afb4554119864c1e20b58e8e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f593945e97a749b7afb4554119864c1e20b58e8e"
+    } ],
+    "fileName" : "f593945e97a749b7afb4554119864c1e20b58e8e.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Teaching and Lessons",
+    "collectionID" : "343adf8d354647e080786afad9464521b43fc4bf",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/343adf8d354647e080786afad9464521b43fc4bf"
+    } ],
+    "fileName" : "343adf8d354647e080786afad9464521b43fc4bf.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Topics",
+    "collectionID" : "85cea3b7f97a449f8b23fcb59bc526accf74d95d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/85cea3b7f97a449f8b23fcb59bc526accf74d95d"
+    } ],
+    "fileName" : "85cea3b7f97a449f8b23fcb59bc526accf74d95d.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Youth",
+    "collectionID" : "429965439f834332b3efe3ea84f2f82863913f74",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-25T14:27:20.399-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/429965439f834332b3efe3ea84f2f82863913f74"
+    } ],
+    "fileName" : "429965439f834332b3efe3ea84f2f82863913f74.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/Holidays",
+    "collectionID" : "fefb94c092f04d14aa687cf2508310b9",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-25T14:08:38.831-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/fefb94c092f04d14aa687cf2508310b9"
+    } ],
+    "fileName" : "fefb94c092f04d14aa687cf2508310b9.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Traditional - Video/News and Events",
+    "collectionID" : "79734464cf5d40e5bc56484b2c0fe227",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-18T08:52:25.440-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/79734464cf5d40e5bc56484b2c0fe227"
+    } ],
+    "fileName" : "79734464cf5d40e5bc56484b2c0fe227.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "21ca05f4aa404aacaa7942525a42c579.json",
+  "name" : "Mandarin Traditional - Video",
+  "publicTitle" : "影片",
+  "description" : "耶穌基督後期聖徒教會所製作之影片的最大收藏集，收錄了課程、青少年、兒童、靈感、訓練方面等影片。"
+}

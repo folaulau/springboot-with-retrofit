@@ -1,0 +1,85 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Japanese - GS Banner - Videos Only",
+  "collectionID" : "72663b9b229844788268550186e005e7",
+  "language" : "jpn",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:54:15.980-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/72663b9b229844788268550186e005e7"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "43"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "jpn"
+  }, {
+    "key" : "collectionUri",
+    "value" : "gospel-stream-banner",
+    "language" : "jpn"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Gospel Stream Banner",
+    "language" : "jpn"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "3c93844f665c83003610e8ff11577babaf9680bf"
+    },
+    "index" : 3,
+    "addedDate" : 1731430093775,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "1f7784c3df5471fb122599056876a2f3cc16aa89"
+    },
+    "index" : 6,
+    "addedDate" : 1724088365380,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "cd6174fa9fc79948f2c614098d1c746989779422"
+    },
+    "index" : 4,
+    "addedDate" : 1731429989756,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "4f0547a4f53211eeb045eeeeac1ef0ac88800b5c"
+    },
+    "index" : 5,
+    "addedDate" : 1721688887027,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6c4f412d7f5e11efb0ca022e7e432ed987a1836e"
+    },
+    "index" : 0,
+    "addedDate" : 1731950980347,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3efe8b7a7f6011efb0ca022e7e432ed97d792d73"
+    },
+    "index" : 2,
+    "addedDate" : 1731429828470,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "7538239d96f211efa193022e7e432ed945c2de90"
+    },
+    "index" : 1,
+    "addedDate" : 1731951757770,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "72663b9b229844788268550186e005e7.json",
+  "name" : "Japanese - GS Banner - Videos Only",
+  "publicTitle" : "Gospel Stream Banner"
+}

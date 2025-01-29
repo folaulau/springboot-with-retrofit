@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Swedish - Video",
+  "collectionID" : "ec73f60fc576449785e64dcfbd8f1849",
+  "language" : "swe",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-21T12:51:49.526-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ec73f60fc576449785e64dcfbd8f1849"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "101"
+  }, {
+    "key" : "description",
+    "value" : "Den största samlingen videor som skapats av Jesu Kristi Kyrka av Sista Dagars Heliga, inklusive videor för lektioner, ungdomar, barn, inspiration, utbildning med mera.",
+    "language" : "swe"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "swe"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Video",
+    "language" : "swe"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Swedish - Video/Church History",
+    "collectionID" : "ebf73f3c46464129b92866ae127e318ab2511b13",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ebf73f3c46464129b92866ae127e318ab2511b13"
+    } ],
+    "fileName" : "ebf73f3c46464129b92866ae127e318ab2511b13.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Community Outreach",
+    "collectionID" : "b2f74f3af4ce4a8c96d31cc48de43c3ee80a3f3e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b2f74f3af4ce4a8c96d31cc48de43c3ee80a3f3e"
+    } ],
+    "fileName" : "b2f74f3af4ce4a8c96d31cc48de43c3ee80a3f3e.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Family History",
+    "collectionID" : "328033813e964768a8adbe7b5ee5d4ea3745827f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T12:08:30.288-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/328033813e964768a8adbe7b5ee5d4ea3745827f"
+    } ],
+    "fileName" : "328033813e964768a8adbe7b5ee5d4ea3745827f.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Broadcasts",
+    "collectionID" : "8fadef8e15f147e2a76fae3ccd7bc212a3124252",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T12:36:12.341-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8fadef8e15f147e2a76fae3ccd7bc212a3124252"
+    } ],
+    "fileName" : "8fadef8e15f147e2a76fae3ccd7bc212a3124252.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Callings and Trainings",
+    "collectionID" : "2df8cfeaeaac4bd1aa49924c0cb6b6d87b10f4f3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2df8cfeaeaac4bd1aa49924c0cb6b6d87b10f4f3"
+    } ],
+    "fileName" : "2df8cfeaeaac4bd1aa49924c0cb6b6d87b10f4f3.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Children",
+    "collectionID" : "73949c0271214a378bfae0cb502b0defdbc5135b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/73949c0271214a378bfae0cb502b0defdbc5135b"
+    } ],
+    "fileName" : "73949c0271214a378bfae0cb502b0defdbc5135b.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Inspiration",
+    "collectionID" : "764a56bc997a4e25bcab15b626afe95cd1bbee35",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/764a56bc997a4e25bcab15b626afe95cd1bbee35"
+    } ],
+    "fileName" : "764a56bc997a4e25bcab15b626afe95cd1bbee35.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Life Help",
+    "collectionID" : "c6b750f056b14052b02e9f51e0d45dba89ee17c2",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-21T12:53:22.612-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c6b750f056b14052b02e9f51e0d45dba89ee17c2"
+    } ],
+    "fileName" : "c6b750f056b14052b02e9f51e0d45dba89ee17c2.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/People",
+    "collectionID" : "e6227a330c6c416eafe148c2e2b8bb122fadf895",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e6227a330c6c416eafe148c2e2b8bb122fadf895"
+    } ],
+    "fileName" : "e6227a330c6c416eafe148c2e2b8bb122fadf895.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Scriptures",
+    "collectionID" : "64cf4c4dad25481ea443d43b99e81a24edad37fe",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:36:59.336-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/64cf4c4dad25481ea443d43b99e81a24edad37fe"
+    } ],
+    "fileName" : "64cf4c4dad25481ea443d43b99e81a24edad37fe.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Sharing the Gospel",
+    "collectionID" : "2478b4946a6c492faadf9e57836b27f8ca391ac1",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T20:30:30.575-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2478b4946a6c492faadf9e57836b27f8ca391ac1"
+    } ],
+    "fileName" : "2478b4946a6c492faadf9e57836b27f8ca391ac1.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Teaching and Lessons",
+    "collectionID" : "53fd2e841bdb4a22b4ebde03263831b9e64f4da3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T12:10:01.487-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/53fd2e841bdb4a22b4ebde03263831b9e64f4da3"
+    } ],
+    "fileName" : "53fd2e841bdb4a22b4ebde03263831b9e64f4da3.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Topics",
+    "collectionID" : "26f335ce3e09418c8cebbe7e5262e8188531302f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-05-25T19:39:10.678-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/26f335ce3e09418c8cebbe7e5262e8188531302f"
+    } ],
+    "fileName" : "26f335ce3e09418c8cebbe7e5262e8188531302f.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Youth",
+    "collectionID" : "7abbe1227242436ebd62f7dade64e7794ab0b0c2",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T12:33:01.484-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7abbe1227242436ebd62f7dade64e7794ab0b0c2"
+    } ],
+    "fileName" : "7abbe1227242436ebd62f7dade64e7794ab0b0c2.json"
+  }, {
+    "path" : "Mobile Media Library/Swedish - Video/Holidays",
+    "collectionID" : "92743c1922f446a0a811fed4f840132b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-22T11:52:57.627-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/92743c1922f446a0a811fed4f840132b"
+    } ],
+    "fileName" : "92743c1922f446a0a811fed4f840132b.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "ec73f60fc576449785e64dcfbd8f1849.json",
+  "name" : "Swedish - Video",
+  "publicTitle" : "Video",
+  "description" : "Den största samlingen videor som skapats av Jesu Kristi Kyrka av Sista Dagars Heliga, inklusive videor för lektioner, ungdomar, barn, inspiration, utbildning med mera."
+}

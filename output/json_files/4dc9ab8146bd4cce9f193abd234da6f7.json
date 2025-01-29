@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Swedish - Audio",
+  "collectionID" : "4dc9ab8146bd4cce9f193abd234da6f7",
+  "language" : "swe",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T10:34:18.830-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4dc9ab8146bd4cce9f193abd234da6f7"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "swe"
+  }, {
+    "key" : "orderIndex",
+    "value" : "99"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "4dc9ab8146bd4cce9f193abd234da6f7.json",
+  "name" : "Swedish - Audio"
+}

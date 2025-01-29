@@ -1,0 +1,116 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Russian - Images",
+  "collectionID" : "53195055bb7d4ed49c9ced1dfd06eb3c0a69af83",
+  "language" : "rus",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-09-18T12:05:17.254-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/53195055bb7d4ed49c9ced1dfd06eb3c0a69af83"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "40"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "rus"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Изображения",
+    "language" : "rus"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Russian - Images/Old Testament Stories",
+    "collectionID" : "f4986399e59b44858ab7eb0012f09483",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-12-19T10:06:39.348-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f4986399e59b44858ab7eb0012f09483"
+    } ],
+    "fileName" : "f4986399e59b44858ab7eb0012f09483.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Book of Mormon Videos Images",
+    "collectionID" : "0e2df836c2534cac92d58c1e059e0197",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T12:43:44.568-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0e2df836c2534cac92d58c1e059e0197"
+    } ],
+    "fileName" : "0e2df836c2534cac92d58c1e059e0197.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Easter",
+    "collectionID" : "a3dfc38f8c984fb180609c307ddd4469",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T13:35:07.192-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a3dfc38f8c984fb180609c307ddd4469"
+    } ],
+    "fileName" : "a3dfc38f8c984fb180609c307ddd4469.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Everyday People",
+    "collectionID" : "485d64c3fe564fa8b759fb21fbcc7277",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T13:37:54.386-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/485d64c3fe564fa8b759fb21fbcc7277"
+    } ],
+    "fileName" : "485d64c3fe564fa8b759fb21fbcc7277.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Gospel Art",
+    "collectionID" : "643f1c9815e24f89bc9f30e03c284cd1",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T14:15:27.092-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/643f1c9815e24f89bc9f30e03c284cd1"
+    } ],
+    "fileName" : "643f1c9815e24f89bc9f30e03c284cd1.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Seminary and Institute",
+    "collectionID" : "399007cccc68492089562c2d177b3e01",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T14:34:54.913-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/399007cccc68492089562c2d177b3e01"
+    } ],
+    "fileName" : "399007cccc68492089562c2d177b3e01.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Church Leaders",
+    "collectionID" : "496cd72841a84175adb6baaa8a288129",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T13:18:20.082-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/496cd72841a84175adb6baaa8a288129"
+    } ],
+    "fileName" : "496cd72841a84175adb6baaa8a288129.json"
+  }, {
+    "path" : "Mobile Media Library/Russian - Images/Primary",
+    "collectionID" : "bc85409a6b794b52a3538c57d26732ca",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-04T14:31:38.794-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bc85409a6b794b52a3538c57d26732ca"
+    } ],
+    "fileName" : "bc85409a6b794b52a3538c57d26732ca.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "53195055bb7d4ed49c9ced1dfd06eb3c0a69af83.json",
+  "name" : "Russian - Images",
+  "publicTitle" : "Изображения"
+}

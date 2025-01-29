@@ -1,0 +1,140 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/French - Featured",
+  "collectionID" : "fcd3cd5b13bb401990d4f5ba0a444057",
+  "language" : "fra",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T08:52:09.961-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/fcd3cd5b13bb401990d4f5ba0a444057"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "22"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "fra"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "fra"
+  }, {
+    "key" : "publicTitle",
+    "value" : "À la une",
+    "language" : "fra"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/French - Featured/Recent Inspirational Messages",
+    "collectionID" : "9a3794c172294c74a3e30541db81a5e6",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-13T13:14:19.437-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9a3794c172294c74a3e30541db81a5e6"
+    } ],
+    "fileName" : "9a3794c172294c74a3e30541db81a5e6.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Just Added",
+    "collectionID" : "66abb8a1d57e44158f5f70628c42d387",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-08-06T12:42:53.938-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/66abb8a1d57e44158f5f70628c42d387"
+    } ],
+    "fileName" : "66abb8a1d57e44158f5f70628c42d387.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Book of Mormon Videos Full Length",
+    "collectionID" : "ca1181c7dee447b29d741034b82f390c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-11T10:45:29.278-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ca1181c7dee447b29d741034b82f390c"
+    } ],
+    "fileName" : "ca1181c7dee447b29d741034b82f390c.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/This Week in Come, Follow Me",
+    "collectionID" : "ff528946f6f34430b666e464d0e4e85d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-28T11:04:23.746-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ff528946f6f34430b666e464d0e4e85d"
+    } ],
+    "fileName" : "ff528946f6f34430b666e464d0e4e85d.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Newsroom Feature",
+    "collectionID" : "f62121864fd04abcb9421bd14f3232ba",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-04-08T23:35:16.694-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f62121864fd04abcb9421bd14f3232ba"
+    } ],
+    "fileName" : "f62121864fd04abcb9421bd14f3232ba.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Book of Mormon Stories-New",
+    "collectionID" : "ed1be370abf5441cba80a83fcd50ed20",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-12T11:28:30.041-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ed1be370abf5441cba80a83fcd50ed20"
+    } ],
+    "fileName" : "ed1be370abf5441cba80a83fcd50ed20.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/General Conference Feature",
+    "collectionID" : "7313ddc457634d738a4b186191f5eae3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-21T15:27:30.365-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7313ddc457634d738a4b186191f5eae3"
+    } ],
+    "fileName" : "7313ddc457634d738a4b186191f5eae3.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Films",
+    "collectionID" : "07d32f7c6a104a319b3d4e282e83403a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-06-07T16:10:44.769-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/07d32f7c6a104a319b3d4e282e83403a"
+    } ],
+    "fileName" : "07d32f7c6a104a319b3d4e282e83403a.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Growing Faith",
+    "collectionID" : "ccc70cdb5ae34a55a2221f41c6a2c236",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-06-07T16:10:54.040-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ccc70cdb5ae34a55a2221f41c6a2c236"
+    } ],
+    "fileName" : "ccc70cdb5ae34a55a2221f41c6a2c236.json"
+  }, {
+    "path" : "Mobile Media Library/French - Featured/Bible Videos",
+    "collectionID" : "2bcf135d752f4262bb0fceb8cdec7992",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-06-07T16:11:08.343-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2bcf135d752f4262bb0fceb8cdec7992"
+    } ],
+    "fileName" : "2bcf135d752f4262bb0fceb8cdec7992.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "fcd3cd5b13bb401990d4f5ba0a444057.json",
+  "name" : "French - Featured",
+  "publicTitle" : "À la une"
+}

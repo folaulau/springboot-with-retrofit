@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Hungarian  - Images",
+  "collectionID" : "126fe2d70a984f82b8d863687515c70135c39b92",
+  "language" : "hun",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-14T12:19:31.158-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/126fe2d70a984f82b8d863687515c70135c39b92"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "84"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "hun"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Képeket",
+    "language" : "hun"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Hungarian  - Images/Easter",
+    "collectionID" : "e974dc669b264ddb8ad7d4cbff32b481",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T11:57:49.596-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e974dc669b264ddb8ad7d4cbff32b481"
+    } ],
+    "fileName" : "e974dc669b264ddb8ad7d4cbff32b481.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian  - Images/Gospel Art",
+    "collectionID" : "b50edc7267104eec8318ae71b4dbbd11",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T11:58:43.371-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b50edc7267104eec8318ae71b4dbbd11"
+    } ],
+    "fileName" : "b50edc7267104eec8318ae71b4dbbd11.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian  - Images/Seminary and Institute",
+    "collectionID" : "4359e2bc240b41d7b25f59de4b0c0c15",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T12:07:52.486-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4359e2bc240b41d7b25f59de4b0c0c15"
+    } ],
+    "fileName" : "4359e2bc240b41d7b25f59de4b0c0c15.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian  - Images/Church Leaders",
+    "collectionID" : "30964c2e39454655b7b2a9b1dd8d702f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T11:45:05.374-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/30964c2e39454655b7b2a9b1dd8d702f"
+    } ],
+    "fileName" : "30964c2e39454655b7b2a9b1dd8d702f.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "126fe2d70a984f82b8d863687515c70135c39b92.json",
+  "name" : "Hungarian  - Images",
+  "publicTitle" : "Képeket"
+}

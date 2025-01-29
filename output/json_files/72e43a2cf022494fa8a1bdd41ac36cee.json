@@ -1,0 +1,110 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Japanese - Featured",
+  "collectionID" : "72e43a2cf022494fa8a1bdd41ac36cee",
+  "language" : "jpn",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-07-22T17:02:41.483-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/72e43a2cf022494fa8a1bdd41ac36cee"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "42"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "jpn"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "jpn"
+  }, {
+    "key" : "publicTitle",
+    "value" : "特集一覧",
+    "language" : "jpn"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Japanese - Featured/Recent Inspirational Messages",
+    "collectionID" : "6dc956c4e7544a00bd479f111395980f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-20T15:09:20.719-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/6dc956c4e7544a00bd479f111395980f"
+    } ],
+    "fileName" : "6dc956c4e7544a00bd479f111395980f.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/Just Added",
+    "collectionID" : "bb7e5ea20b8f4e269edc85eae12a4b97",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-07-22T17:02:31.558-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bb7e5ea20b8f4e269edc85eae12a4b97"
+    } ],
+    "fileName" : "bb7e5ea20b8f4e269edc85eae12a4b97.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/General Conference Feature",
+    "collectionID" : "9952aefa7c0c44c98791e80ed855801e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-25T15:04:22.214-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9952aefa7c0c44c98791e80ed855801e"
+    } ],
+    "fileName" : "9952aefa7c0c44c98791e80ed855801e.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/Worldwide Day of Testimony",
+    "collectionID" : "2267a71b2c3d4619a38cf77f2c2a651a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T13:02:56.854-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2267a71b2c3d4619a38cf77f2c2a651a"
+    } ],
+    "fileName" : "2267a71b2c3d4619a38cf77f2c2a651a.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/Newsroom Feature",
+    "collectionID" : "c8247a305f7842b7bd18357a5592a569",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-11-21T19:54:58.786-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c8247a305f7842b7bd18357a5592a569"
+    } ],
+    "fileName" : "c8247a305f7842b7bd18357a5592a569.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/Seminary and Institute Invitation",
+    "collectionID" : "cdd29b94e3704e9ab39eb54e714d005b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-11-20T18:05:19.319-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/cdd29b94e3704e9ab39eb54e714d005b"
+    } ],
+    "fileName" : "cdd29b94e3704e9ab39eb54e714d005b.json"
+  }, {
+    "path" : "Mobile Media Library/Japanese - Featured/This Week in Come Follow Me",
+    "collectionID" : "43a9bfab60754d54a26ddda0542b8331",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-11-12T15:45:32.569-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/43a9bfab60754d54a26ddda0542b8331"
+    } ],
+    "fileName" : "43a9bfab60754d54a26ddda0542b8331.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "72e43a2cf022494fa8a1bdd41ac36cee.json",
+  "name" : "Japanese - Featured",
+  "publicTitle" : "特集一覧"
+}

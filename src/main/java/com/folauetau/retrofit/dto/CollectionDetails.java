@@ -11,8 +11,14 @@ public class CollectionDetails implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    public static final String ASSETS_COLLECTION_TYPE = "assets";
+    public static final String COLLECTIONS_COLLECTION_TYPE = "collections";
+
+    // english collection id
+    private String sourceCollectionId;
     private String parentCollectionID;
     private String parentCollectionPath;
+    private String collectionType;
     private String path;
     private String collectionID;
     private String language;
@@ -44,11 +50,23 @@ public class CollectionDetails implements Serializable {
             .orElse(null);
     }
 
+    public String getCollectionUri() {
+        return metadata.stream()
+            .filter(m -> "collectionUri".equals(m.getKey()))
+            .map(Metadata::getValue)
+            .findFirst()
+            .orElse(null);
+    }
+
     public String getName() {
         if(path == null) {
             return null;
         }
         String[] parts = path.split("/");
         return parts[parts.length - 1];
+    }
+
+    public boolean isEnglish() {
+        return "eng".equalsIgnoreCase(language);
     }
 }

@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Finnish - Video",
+  "collectionID" : "9e74a5a0519a4b6ba95069a0403d1b2d",
+  "language" : "fin",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-20T11:47:47.396-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9e74a5a0519a4b6ba95069a0403d1b2d"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "81"
+  }, {
+    "key" : "description",
+    "value" : "Suurin kokoelma Myöhempien Aikojen Pyhien Jeesuksen Kristuksen Kirkon luomia videoita, myös videoita oppiaiheita varten, nuorille, lapsille, innoitusta ja koulutusta varten sekä paljon muuta.",
+    "language" : "fin"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "fin"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Videokokoelmia",
+    "language" : "fin"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Finnish - Video/Church History",
+    "collectionID" : "596146562bd7454ab8c8a78d022e2127d592df66",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/596146562bd7454ab8c8a78d022e2127d592df66"
+    } ],
+    "fileName" : "596146562bd7454ab8c8a78d022e2127d592df66.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Community Outreach",
+    "collectionID" : "669f176de0aa4afe99ce0c9da1c9a0b137fc0fd4",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/669f176de0aa4afe99ce0c9da1c9a0b137fc0fd4"
+    } ],
+    "fileName" : "669f176de0aa4afe99ce0c9da1c9a0b137fc0fd4.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Family History",
+    "collectionID" : "94551e858c054ad0b400b0ce8c13ac0d8a0100ae",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/94551e858c054ad0b400b0ce8c13ac0d8a0100ae"
+    } ],
+    "fileName" : "94551e858c054ad0b400b0ce8c13ac0d8a0100ae.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/People",
+    "collectionID" : "44f4319758b6463b9312fe45e03bb8a4baa862d9",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/44f4319758b6463b9312fe45e03bb8a4baa862d9"
+    } ],
+    "fileName" : "44f4319758b6463b9312fe45e03bb8a4baa862d9.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Youth",
+    "collectionID" : "e9e1484465b84c519baaead037aed6ab47ee4c7c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T10:00:05.912-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e9e1484465b84c519baaead037aed6ab47ee4c7c"
+    } ],
+    "fileName" : "e9e1484465b84c519baaead037aed6ab47ee4c7c.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Broadcasts",
+    "collectionID" : "bd759e1cc16c4e5dab310d2c2b25ebe7f3cd38a0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T10:20:32.305-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bd759e1cc16c4e5dab310d2c2b25ebe7f3cd38a0"
+    } ],
+    "fileName" : "bd759e1cc16c4e5dab310d2c2b25ebe7f3cd38a0.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Callings and Trainings",
+    "collectionID" : "c49d20eec855476f9a623b8fc6c0af3af4013840",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c49d20eec855476f9a623b8fc6c0af3af4013840"
+    } ],
+    "fileName" : "c49d20eec855476f9a623b8fc6c0af3af4013840.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Children",
+    "collectionID" : "07f889a39c4d4816a0a03ac509ed1698a8ae98a6",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/07f889a39c4d4816a0a03ac509ed1698a8ae98a6"
+    } ],
+    "fileName" : "07f889a39c4d4816a0a03ac509ed1698a8ae98a6.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Inspiration",
+    "collectionID" : "5c31f000845148b29416d5dec316941b0fda1a4f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5c31f000845148b29416d5dec316941b0fda1a4f"
+    } ],
+    "fileName" : "5c31f000845148b29416d5dec316941b0fda1a4f.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Life Help",
+    "collectionID" : "0d90d818bd874c71b7f71b072e3fcfd269611805",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-20T11:48:14.028-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0d90d818bd874c71b7f71b072e3fcfd269611805"
+    } ],
+    "fileName" : "0d90d818bd874c71b7f71b072e3fcfd269611805.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Scriptures",
+    "collectionID" : "7024bbd2822c47d1a10fd5006bbd73571fec2d91",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T22:59:40.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7024bbd2822c47d1a10fd5006bbd73571fec2d91"
+    } ],
+    "fileName" : "7024bbd2822c47d1a10fd5006bbd73571fec2d91.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Sharing the Gospel",
+    "collectionID" : "bf0d771d6f8042fc81fabebe8afd891098e5c26b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T20:25:19.658-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bf0d771d6f8042fc81fabebe8afd891098e5c26b"
+    } ],
+    "fileName" : "bf0d771d6f8042fc81fabebe8afd891098e5c26b.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Teaching and Lessons",
+    "collectionID" : "5eff3a7afe4f48f484f6320dba2dc825b32e3ac9",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T10:02:03.357-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5eff3a7afe4f48f484f6320dba2dc825b32e3ac9"
+    } ],
+    "fileName" : "5eff3a7afe4f48f484f6320dba2dc825b32e3ac9.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Topics",
+    "collectionID" : "22311a4569134057bf32120891029b87e4fec69c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-05-24T16:34:40.772-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/22311a4569134057bf32120891029b87e4fec69c"
+    } ],
+    "fileName" : "22311a4569134057bf32120891029b87e4fec69c.json"
+  }, {
+    "path" : "Mobile Media Library/Finnish - Video/Holidays",
+    "collectionID" : "6f3a834b3a7a4af687df9bddc9236b30",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-21T15:04:29.604-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/6f3a834b3a7a4af687df9bddc9236b30"
+    } ],
+    "fileName" : "6f3a834b3a7a4af687df9bddc9236b30.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "9e74a5a0519a4b6ba95069a0403d1b2d.json",
+  "name" : "Finnish - Video",
+  "publicTitle" : "Videokokoelmia",
+  "description" : "Suurin kokoelma Myöhempien Aikojen Pyhien Jeesuksen Kristuksen Kirkon luomia videoita, myös videoita oppiaiheita varten, nuorille, lapsille, innoitusta ja koulutusta varten sekä paljon muuta."
+}

@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Danish - Audio",
+  "collectionID" : "6f0fec065bad4e32aa558b3dfb2acf53",
+  "language" : "dan",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T10:28:05.835-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/6f0fec065bad4e32aa558b3dfb2acf53"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "dan"
+  }, {
+    "key" : "orderIndex",
+    "value" : "71"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "6f0fec065bad4e32aa558b3dfb2acf53.json",
+  "name" : "Danish - Audio"
+}

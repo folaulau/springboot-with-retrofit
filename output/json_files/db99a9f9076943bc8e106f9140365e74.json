@@ -1,0 +1,39 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Cantonese: GS Banner - Videos Only",
+  "collectionID" : "db99a9f9076943bc8e106f9140365e74",
+  "language" : "yue",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-10-21T15:55:05.718-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/db99a9f9076943bc8e106f9140365e74"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "63"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "yue"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Cantonese: GS Banner - Videos Only",
+    "language" : "yue"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "4620d236f53211eead68eeeeac1e5b9facfdeb30"
+    },
+    "index" : 0,
+    "addedDate" : 1727446562760,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "db99a9f9076943bc8e106f9140365e74.json",
+  "name" : "Cantonese: GS Banner - Videos Only",
+  "publicTitle" : "Cantonese: GS Banner - Videos Only"
+}

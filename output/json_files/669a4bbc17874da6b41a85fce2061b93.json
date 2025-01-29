@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Hungarian - Audio",
+  "collectionID" : "669a4bbc17874da6b41a85fce2061b93",
+  "language" : "hun",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T10:30:20.695-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/669a4bbc17874da6b41a85fce2061b93"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "hun"
+  }, {
+    "key" : "orderIndex",
+    "value" : "83"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "669a4bbc17874da6b41a85fce2061b93.json",
+  "name" : "Hungarian - Audio"
+}

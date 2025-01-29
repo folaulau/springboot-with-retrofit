@@ -1,0 +1,71 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/ASL  - GS Banner - Videos Only",
+  "collectionID" : "76074fb13ab14e79931cc932e9437da2",
+  "language" : "ase",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:55:48.018-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/76074fb13ab14e79931cc932e9437da2"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "68"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "ase"
+  }, {
+    "key" : "collectionUri",
+    "value" : "gospel-stream-banner",
+    "language" : "ase"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Gospel Stream Banner",
+    "language" : "ase"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "c280c940dbce11eea061eeeeac1e25ef14f4e7fa"
+    },
+    "index" : 4,
+    "addedDate" : 1718317541911,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "9e67cf30f53111eea645eeeeac1e9233f59f1a9c"
+    },
+    "index" : 3,
+    "addedDate" : 1718317562550,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6cb4b9d47f5e11efb0ca022e7e432ed96b94da4c"
+    },
+    "index" : 0,
+    "addedDate" : 1731951087426,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3e9f2d547f6011efb0ca022e7e432ed9e9c22c04"
+    },
+    "index" : 2,
+    "addedDate" : 1731429875152,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "74b007bd96f211efa193022e7e432ed9bfc86872"
+    },
+    "index" : 1,
+    "addedDate" : 1731951811594,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "76074fb13ab14e79931cc932e9437da2.json",
+  "name" : "ASL  - GS Banner - Videos Only",
+  "publicTitle" : "Gospel Stream Banner"
+}

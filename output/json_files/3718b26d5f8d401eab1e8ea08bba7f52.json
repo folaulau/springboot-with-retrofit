@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Danish - Featured",
+  "collectionID" : "3718b26d5f8d401eab1e8ea08bba7f52",
+  "language" : "dan",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T10:27:47.724-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3718b26d5f8d401eab1e8ea08bba7f52"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "70"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "dan"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Artikel",
+    "language" : "dan"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Danish - Featured/Recent Inspirational Messages",
+    "collectionID" : "e50fb00eb85e4a6793e6c67dab950f82",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-20T14:48:58.135-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e50fb00eb85e4a6793e6c67dab950f82"
+    } ],
+    "fileName" : "e50fb00eb85e4a6793e6c67dab950f82.json"
+  }, {
+    "path" : "Mobile Media Library/Danish - Featured/Just Added",
+    "collectionID" : "49947b3b2a8346e3b55359ef06407e7d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-24T17:33:36.256-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/49947b3b2a8346e3b55359ef06407e7d"
+    } ],
+    "fileName" : "49947b3b2a8346e3b55359ef06407e7d.json"
+  }, {
+    "path" : "Mobile Media Library/Danish - Featured/General Conference Feature",
+    "collectionID" : "d4119c7c730f4aec80d7286a12445410",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-12T18:27:40.676-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d4119c7c730f4aec80d7286a12445410"
+    } ],
+    "fileName" : "d4119c7c730f4aec80d7286a12445410.json"
+  }, {
+    "path" : "Mobile Media Library/Danish - Featured/Worldwide Day of Testimony",
+    "collectionID" : "19550766d0264d07b1c51f5fc60b9187",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T14:08:44.835-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/19550766d0264d07b1c51f5fc60b9187"
+    } ],
+    "fileName" : "19550766d0264d07b1c51f5fc60b9187.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "3718b26d5f8d401eab1e8ea08bba7f52.json",
+  "name" : "Danish - Featured",
+  "publicTitle" : "Artikel"
+}

@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Finnish - Audio",
+  "collectionID" : "2719f532b32f4dd9b0d2bd8def98266c",
+  "language" : "fin",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T10:29:02.789-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2719f532b32f4dd9b0d2bd8def98266c"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "fin"
+  }, {
+    "key" : "orderIndex",
+    "value" : "79"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "2719f532b32f4dd9b0d2bd8def98266c.json",
+  "name" : "Finnish - Audio"
+}

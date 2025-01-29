@@ -1,0 +1,210 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Portuguese - Video",
+  "collectionID" : "e11162c8c47cc5230bb2b13f8bcad98ecc48790e",
+  "language" : "por",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-20T15:32:51.407-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e11162c8c47cc5230bb2b13f8bcad98ecc48790e"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "92053f16994a1e63ee51ea2f7f246fba176b211d"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "21"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "por"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "por"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Vídeo",
+    "language" : "por"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Portuguese - Video/Videos with Audio Description",
+    "collectionID" : "90a0b267180a49768cf732bb8eda6a70",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-03-01T06:18:04.193-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/90a0b267180a49768cf732bb8eda6a70"
+    } ],
+    "fileName" : "90a0b267180a49768cf732bb8eda6a70.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Sharing the Gospel",
+    "collectionID" : "547af62afb92457eac6cf63d099e009b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-06-06T14:19:46.520-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/547af62afb92457eac6cf63d099e009b"
+    } ],
+    "fileName" : "547af62afb92457eac6cf63d099e009b.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Broadcasts",
+    "collectionID" : "5f7379fd48b94ee5b0497c4925c185f3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-22T09:15:30.476-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5f7379fd48b94ee5b0497c4925c185f3"
+    } ],
+    "fileName" : "5f7379fd48b94ee5b0497c4925c185f3.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Callings and Trainings",
+    "collectionID" : "f11ae6838ca24ef489feb621ebd39dc9",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:21:20.633-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f11ae6838ca24ef489feb621ebd39dc9"
+    } ],
+    "fileName" : "f11ae6838ca24ef489feb621ebd39dc9.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Children",
+    "collectionID" : "8a2cf84cb4d549b2922fda8737f9c3f2",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-08-26T15:24:34.351-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8a2cf84cb4d549b2922fda8737f9c3f2"
+    } ],
+    "fileName" : "8a2cf84cb4d549b2922fda8737f9c3f2.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Church History",
+    "collectionID" : "eaa76a7048f643f78b517129c7505f96",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:20:51.835-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/eaa76a7048f643f78b517129c7505f96"
+    } ],
+    "fileName" : "eaa76a7048f643f78b517129c7505f96.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Community Outreach",
+    "collectionID" : "0d08880bb2554e11ac5cd27d3f5da765",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:20:33.406-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0d08880bb2554e11ac5cd27d3f5da765"
+    } ],
+    "fileName" : "0d08880bb2554e11ac5cd27d3f5da765.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Family History",
+    "collectionID" : "f6581bf441934ff78791a43cdce2408e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:20:16.369-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f6581bf441934ff78791a43cdce2408e"
+    } ],
+    "fileName" : "f6581bf441934ff78791a43cdce2408e.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Inspiration",
+    "collectionID" : "01ef88d3771d4eff84c6c9aa81e0671f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-22T09:32:33.387-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/01ef88d3771d4eff84c6c9aa81e0671f"
+    } ],
+    "fileName" : "01ef88d3771d4eff84c6c9aa81e0671f.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Life Help",
+    "collectionID" : "ee9e346d8a844bcf9e7b86f3dfe57b5a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:19:40.966-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ee9e346d8a844bcf9e7b86f3dfe57b5a"
+    } ],
+    "fileName" : "ee9e346d8a844bcf9e7b86f3dfe57b5a.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/News and Events",
+    "collectionID" : "35f5089e77c34b33a9abb3bb504bda44",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:19:24.066-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/35f5089e77c34b33a9abb3bb504bda44"
+    } ],
+    "fileName" : "35f5089e77c34b33a9abb3bb504bda44.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/People",
+    "collectionID" : "612179d30d86489284d12a214bb13bee",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:19:08.017-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/612179d30d86489284d12a214bb13bee"
+    } ],
+    "fileName" : "612179d30d86489284d12a214bb13bee.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "8268ab7f92074c2dacae353d7b79e06d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-29T23:29:22.343-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8268ab7f92074c2dacae353d7b79e06d"
+    } ],
+    "fileName" : "8268ab7f92074c2dacae353d7b79e06d.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Teaching and Lessons",
+    "collectionID" : "c520e202e4b848a78d402dc60e9a1868",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-08T15:18:24.111-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c520e202e4b848a78d402dc60e9a1868"
+    } ],
+    "fileName" : "c520e202e4b848a78d402dc60e9a1868.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Topics",
+    "collectionID" : "e553d1f0d3cb45d6b9a2449a91d77e7f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-08-26T15:39:49.423-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e553d1f0d3cb45d6b9a2449a91d77e7f"
+    } ],
+    "fileName" : "e553d1f0d3cb45d6b9a2449a91d77e7f.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Youth",
+    "collectionID" : "4321aac3e6bb4d08944cdbeede732a4b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-08-26T15:56:32.680-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4321aac3e6bb4d08944cdbeede732a4b"
+    } ],
+    "fileName" : "4321aac3e6bb4d08944cdbeede732a4b.json"
+  }, {
+    "path" : "Mobile Media Library/Portuguese - Video/Holidays",
+    "collectionID" : "007d6033ded74ac7a7e14e0fb2b82c35",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-23T10:19:48.554-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/007d6033ded74ac7a7e14e0fb2b82c35"
+    } ],
+    "fileName" : "007d6033ded74ac7a7e14e0fb2b82c35.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "e11162c8c47cc5230bb2b13f8bcad98ecc48790e.json",
+  "name" : "Portuguese - Video",
+  "publicTitle" : "Vídeo"
+}

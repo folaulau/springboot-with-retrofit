@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Norwegian - Featured",
+  "collectionID" : "b59d96efca6c41158f7abfec427275e6",
+  "language" : "nor",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T11:34:21.876-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b59d96efca6c41158f7abfec427275e6"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "90"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "nor"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Utvalg",
+    "language" : "nor"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Norwegian - Featured/Recent Inspirational Messages",
+    "collectionID" : "a25cfdea18d0459083807d84b0c17491",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T11:29:50.436-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a25cfdea18d0459083807d84b0c17491"
+    } ],
+    "fileName" : "a25cfdea18d0459083807d84b0c17491.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Featured/Just Added",
+    "collectionID" : "31d2c036c9cc4154aa086e6b89b2bc53",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-24T17:39:59.687-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/31d2c036c9cc4154aa086e6b89b2bc53"
+    } ],
+    "fileName" : "31d2c036c9cc4154aa086e6b89b2bc53.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Featured/General Conference Feature",
+    "collectionID" : "475ef4a70f3e4d94ace76efe1b3131d0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-29T10:51:59.459-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/475ef4a70f3e4d94ace76efe1b3131d0"
+    } ],
+    "fileName" : "475ef4a70f3e4d94ace76efe1b3131d0.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Featured/Worldwide Day of Testimony",
+    "collectionID" : "904b00673ce8499bad2b0a49fe393f88",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T14:57:16.139-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/904b00673ce8499bad2b0a49fe393f88"
+    } ],
+    "fileName" : "904b00673ce8499bad2b0a49fe393f88.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "b59d96efca6c41158f7abfec427275e6.json",
+  "name" : "Norwegian - Featured",
+  "publicTitle" : "Utvalg"
+}

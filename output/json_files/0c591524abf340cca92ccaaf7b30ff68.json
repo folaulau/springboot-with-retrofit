@@ -1,0 +1,135 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/ASL - Video",
+  "collectionID" : "0c591524abf340cca92ccaaf7b30ff68",
+  "language" : "ase",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-12-04T14:32:59.919-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0c591524abf340cca92ccaaf7b30ff68"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "69"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "ase"
+  }, {
+    "key" : "description",
+    "value" : "The largest collection of videos created by The Church of Jesus Christ of Latter-day Saints, including videos for lessons, youth, children, inspiration, training, and more.",
+    "language" : "ase"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "ase"
+  }, {
+    "key" : "publicTitle",
+    "value" : "ASL: Video Collections",
+    "language" : "ase"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/ASL - Video/Life Help",
+    "collectionID" : "015f77e14d5d44439574a967fe17d253",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-01-25T14:23:02.821-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/015f77e14d5d44439574a967fe17d253"
+    } ],
+    "fileName" : "015f77e14d5d44439574a967fe17d253.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Broadcasts",
+    "collectionID" : "8d2172f808a24f9b86b0613a4e93a6cb",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T14:33:14.643-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8d2172f808a24f9b86b0613a4e93a6cb"
+    } ],
+    "fileName" : "8d2172f808a24f9b86b0613a4e93a6cb.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Inspiration",
+    "collectionID" : "eb5ca84dc8534d46ad03c0654777102a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T14:38:33.383-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/eb5ca84dc8534d46ad03c0654777102a"
+    } ],
+    "fileName" : "eb5ca84dc8534d46ad03c0654777102a.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Videos for Children",
+    "collectionID" : "be3454b03f584d00a13cdcc6e2f3cf27",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-01-23T16:23:39.211-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/be3454b03f584d00a13cdcc6e2f3cf27"
+    } ],
+    "fileName" : "be3454b03f584d00a13cdcc6e2f3cf27.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Holidays",
+    "collectionID" : "244f7a8e95f842ffafae6be4c080fd4e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T14:38:04.781-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/244f7a8e95f842ffafae6be4c080fd4e"
+    } ],
+    "fileName" : "244f7a8e95f842ffafae6be4c080fd4e.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Bible Videos - The Life of Jesus Christ",
+    "collectionID" : "4ebf4a2f76ea4471827c767494ab8e38",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-03-08T19:01:49.095-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4ebf4a2f76ea4471827c767494ab8e38"
+    } ],
+    "fileName" : "4ebf4a2f76ea4471827c767494ab8e38.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Teaching and Lessons",
+    "collectionID" : "4361cd93d7904bf9a547d6aa7b7d4804",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T15:18:36.282-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4361cd93d7904bf9a547d6aa7b7d4804"
+    } ],
+    "fileName" : "4361cd93d7904bf9a547d6aa7b7d4804.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "f7024665f6e644c89b8c76ec1500791b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-03-08T19:03:20.819-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f7024665f6e644c89b8c76ec1500791b"
+    } ],
+    "fileName" : "f7024665f6e644c89b8c76ec1500791b.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Video/Family History",
+    "collectionID" : "977b541d00384eea9215ef3b710841c5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-03-01T17:40:32.510-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/977b541d00384eea9215ef3b710841c5"
+    } ],
+    "fileName" : "977b541d00384eea9215ef3b710841c5.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "0c591524abf340cca92ccaaf7b30ff68.json",
+  "name" : "ASL - Video",
+  "publicTitle" : "ASL: Video Collections",
+  "description" : "The largest collection of videos created by The Church of Jesus Christ of Latter-day Saints, including videos for lessons, youth, children, inspiration, training, and more."
+}

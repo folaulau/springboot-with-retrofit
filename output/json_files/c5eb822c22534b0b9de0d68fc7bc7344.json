@@ -1,0 +1,169 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/European Portuguese - Featured",
+  "collectionID" : "c5eb822c22534b0b9de0d68fc7bc7344",
+  "language" : "ept",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-10-03T10:50:55.349-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c5eb822c22534b0b9de0d68fc7bc7344"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "ept"
+  }, {
+    "key" : "orderIndex",
+    "value" : "116"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "ept"
+  }, {
+    "key" : "publicTitle",
+    "value" : "European Portuguese - Featured",
+    "language" : "ept"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/European Portuguese - Featured/Mormon 1-7",
+    "collectionID" : "26ad29ae4a974660a591629e17efa979",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-29T14:39:14.894-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/26ad29ae4a974660a591629e17efa979"
+    } ],
+    "fileName" : "26ad29ae4a974660a591629e17efa979.json"
+  } ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "83d7504ebedd11ee9d03eeeeac1e76105f2c4beb"
+    },
+    "index" : 7,
+    "addedDate" : 1727974132396,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "a342fbf1bedd11eeae75eeeeac1e48328d59b2db"
+    },
+    "index" : 8,
+    "addedDate" : 1727974141021,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "a9994c7fbedd11ee924aeeeeac1e4274b6f8a31a"
+    },
+    "index" : 16,
+    "addedDate" : 1727974213231,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "bea83aa8bedd11ee8ae0eeeeac1e67797bb97c12"
+    },
+    "index" : 1,
+    "addedDate" : 1727974072455,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "bfad4e8dbedd11eea0dceeeeac1ed82c84d06295"
+    },
+    "index" : 2,
+    "addedDate" : 1727974081507,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "c077f195bedd11ee9df0eeeeac1ef0c2cf936b89"
+    },
+    "index" : 3,
+    "addedDate" : 1727974092886,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "c43f0bb0bedd11eeb6e3eeeeac1e830bf298272a"
+    },
+    "index" : 4,
+    "addedDate" : 1727974103108,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "c5656341bedd11eea604eeeeac1e40f8a9ea27c7"
+    },
+    "index" : 5,
+    "addedDate" : 1727974113518,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "c8494956bedd11eeb24beeeeac1e024bda61432e"
+    },
+    "index" : 6,
+    "addedDate" : 1727974122814,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "cfcad366bedd11ee9df0eeeeac1ef0c2fbb6cf2c"
+    },
+    "index" : 0,
+    "addedDate" : 1727974057178,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "e65d2d31bedd11ee8df7eeeeac1e344c5b7cf807"
+    },
+    "index" : 15,
+    "addedDate" : 1727974204252,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "e96e16b1bedd11eeb6e3eeeeac1e830b78f176e8"
+    },
+    "index" : 14,
+    "addedDate" : 1727974195764,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "ec4b4602bedd11eeb6e3eeeeac1e830b3209141c"
+    },
+    "index" : 13,
+    "addedDate" : 1727974186673,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "efcccba0bedd11ee8f56eeeeac1e13e9a2f81200"
+    },
+    "index" : 12,
+    "addedDate" : 1727974178902,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "f2585887bedd11eeb24beeeeac1e024b3969d753"
+    },
+    "index" : 11,
+    "addedDate" : 1727974169351,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "f3eb5493bedd11ee9cfceeeeac1eb5e506d83585"
+    },
+    "index" : 10,
+    "addedDate" : 1727974160765,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "f6f2ef48bedd11eeb24beeeeac1e024b4fb554b7"
+    },
+    "index" : 9,
+    "addedDate" : 1727974150366,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "c5eb822c22534b0b9de0d68fc7bc7344.json",
+  "name" : "European Portuguese - Featured",
+  "publicTitle" : "European Portuguese - Featured"
+}

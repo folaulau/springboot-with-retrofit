@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Cantonese - Audio",
+  "collectionID" : "cc2109180b2144dbac2368e877d39184",
+  "language" : "yue",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-02-18T10:39:42.383-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/cc2109180b2144dbac2368e877d39184"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "64"
+  }, {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "yue"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "cc2109180b2144dbac2368e877d39184.json",
+  "name" : "Cantonese - Audio"
+}

@@ -1,0 +1,114 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Mandarin Simpified - Images",
+  "collectionID" : "e01fb5ba5e8b46cdabd50f19f9dd3ba3017ce80c",
+  "language" : "zhs",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-09-17T11:58:29.770-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e01fb5ba5e8b46cdabd50f19f9dd3ba3017ce80c"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "55"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images"
+  }, {
+    "key" : "publicTitle",
+    "value" : "影像"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Old Testament Stories",
+    "collectionID" : "dc9bd4a1e66f41dcb0c9182ad965d93c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-12-19T20:50:50.982-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/dc9bd4a1e66f41dcb0c9182ad965d93c"
+    } ],
+    "fileName" : "dc9bd4a1e66f41dcb0c9182ad965d93c.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Easter",
+    "collectionID" : "566f70399d4a40ed989281c91d0b3b38",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T14:03:37.286-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/566f70399d4a40ed989281c91d0b3b38"
+    } ],
+    "fileName" : "566f70399d4a40ed989281c91d0b3b38.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Seminary and Institute",
+    "collectionID" : "54bfc6cadcda4312bb078fddf213bc61",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-01-16T01:19:34.825-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/54bfc6cadcda4312bb078fddf213bc61"
+    } ],
+    "fileName" : "54bfc6cadcda4312bb078fddf213bc61.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Book of Mormon Videos Images",
+    "collectionID" : "4aa7019ee53e431d8d85d613ebfaf600",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T11:59:27.919-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4aa7019ee53e431d8d85d613ebfaf600"
+    } ],
+    "fileName" : "4aa7019ee53e431d8d85d613ebfaf600.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Church Leaders",
+    "collectionID" : "24defaddb0e6484291715f80d823267c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T12:08:00.466-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/24defaddb0e6484291715f80d823267c"
+    } ],
+    "fileName" : "24defaddb0e6484291715f80d823267c.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Everyday People",
+    "collectionID" : "55165ba19a37433380bca0e44bc225cb",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T14:04:03.631-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/55165ba19a37433380bca0e44bc225cb"
+    } ],
+    "fileName" : "55165ba19a37433380bca0e44bc225cb.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Gospel Art",
+    "collectionID" : "9a5ac5d2b16c491d87b9da2500cdaf3b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-22T13:04:16.324-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9a5ac5d2b16c491d87b9da2500cdaf3b"
+    } ],
+    "fileName" : "9a5ac5d2b16c491d87b9da2500cdaf3b.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simpified - Images/Primary",
+    "collectionID" : "3fc608e493f74938b9a91e8a0bff6a59",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-22T13:12:55.205-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3fc608e493f74938b9a91e8a0bff6a59"
+    } ],
+    "fileName" : "3fc608e493f74938b9a91e8a0bff6a59.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "e01fb5ba5e8b46cdabd50f19f9dd3ba3017ce80c.json",
+  "name" : "Mandarin Simpified - Images",
+  "publicTitle" : "影像"
+}

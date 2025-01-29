@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Indonesian  - Images",
+  "collectionID" : "81cca7080c1044a39c43617b25ef86f18beef6b1",
+  "language" : "ind",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-14T12:20:13.043-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/81cca7080c1044a39c43617b25ef86f18beef6b1"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "88"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "ind"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Gambar-gambar",
+    "language" : "ind"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Indonesian  - Images/Easter",
+    "collectionID" : "78c4eccf23204467a39887af6cc1a685",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T12:38:39.130-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/78c4eccf23204467a39887af6cc1a685"
+    } ],
+    "fileName" : "78c4eccf23204467a39887af6cc1a685.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian  - Images/Gospel Art",
+    "collectionID" : "34b08272062d43a7bf24cca9a9fc1a48",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T12:39:09.965-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/34b08272062d43a7bf24cca9a9fc1a48"
+    } ],
+    "fileName" : "34b08272062d43a7bf24cca9a9fc1a48.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian  - Images/Seminary and Institute",
+    "collectionID" : "7c0de9c58a1d477b8c8cd4f0bbe533bc",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T12:48:40.290-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7c0de9c58a1d477b8c8cd4f0bbe533bc"
+    } ],
+    "fileName" : "7c0de9c58a1d477b8c8cd4f0bbe533bc.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian  - Images/Church Leaders",
+    "collectionID" : "ae956cdd822f42cf85e9ce091431e72f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T12:25:34.780-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ae956cdd822f42cf85e9ce091431e72f"
+    } ],
+    "fileName" : "ae956cdd822f42cf85e9ce091431e72f.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "81cca7080c1044a39c43617b25ef86f18beef6b1.json",
+  "name" : "Indonesian  - Images",
+  "publicTitle" : "Gambar-gambar"
+}

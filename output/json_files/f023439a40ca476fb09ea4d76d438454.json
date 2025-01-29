@@ -1,0 +1,27 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Portuguese - PDF",
+  "collectionID" : "f023439a40ca476fb09ea4d76d438454",
+  "language" : "por",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2021-05-24T12:03:09.622-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f023439a40ca476fb09ea4d76d438454"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "pdfs",
+    "language" : "por"
+  }, {
+    "key" : "orderIndex",
+    "value" : "20"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "f023439a40ca476fb09ea4d76d438454.json",
+  "name" : "Portuguese - PDF"
+}

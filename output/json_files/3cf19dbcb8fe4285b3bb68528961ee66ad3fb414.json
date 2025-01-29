@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Thai  - Images",
+  "collectionID" : "3cf19dbcb8fe4285b3bb68528961ee66ad3fb414",
+  "language" : "tha",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-14T15:00:42.062-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3cf19dbcb8fe4285b3bb68528961ee66ad3fb414"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "104"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "tha"
+  }, {
+    "key" : "publicTitle",
+    "value" : "ภาพ",
+    "language" : "tha"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Thai  - Images/Easter",
+    "collectionID" : "2a958d16d7954541aee163f2a994a864",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:12:30.411-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2a958d16d7954541aee163f2a994a864"
+    } ],
+    "fileName" : "2a958d16d7954541aee163f2a994a864.json"
+  }, {
+    "path" : "Mobile Media Library/Thai  - Images/Gospel Art",
+    "collectionID" : "d5d185b17b0447a3a64980833918f353",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:13:56.743-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d5d185b17b0447a3a64980833918f353"
+    } ],
+    "fileName" : "d5d185b17b0447a3a64980833918f353.json"
+  }, {
+    "path" : "Mobile Media Library/Thai  - Images/Seminary and Institute",
+    "collectionID" : "54f11a680a0f4ba888db1276730c6c9c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:21:22.400-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/54f11a680a0f4ba888db1276730c6c9c"
+    } ],
+    "fileName" : "54f11a680a0f4ba888db1276730c6c9c.json"
+  }, {
+    "path" : "Mobile Media Library/Thai  - Images/Church Leaders",
+    "collectionID" : "a69000ace44a422a98c60d8e80b725f1",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:02:34.643-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a69000ace44a422a98c60d8e80b725f1"
+    } ],
+    "fileName" : "a69000ace44a422a98c60d8e80b725f1.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "3cf19dbcb8fe4285b3bb68528961ee66ad3fb414.json",
+  "name" : "Thai  - Images",
+  "publicTitle" : "ภาพ"
+}

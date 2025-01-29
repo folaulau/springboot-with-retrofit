@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Ukrainian - Video",
+  "collectionID" : "665242aba86b474fb28d3d247f7504ba",
+  "language" : "ukr",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-21T13:21:39.516-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/665242aba86b474fb28d3d247f7504ba"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "113"
+  }, {
+    "key" : "description",
+    "value" : "У найбільшій колекції відео, створеній Церквою Ісуса Христа Святих Останніх Днів, є відео для уроків, для молоді, дітей, а також для натхнення, навчання тощо.",
+    "language" : "ukr"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "ukr"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Відео",
+    "language" : "ukr"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Ukrainian - Video/Church History",
+    "collectionID" : "08f7b69e202a4048a95dcd50b4a6ed035e497345",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/08f7b69e202a4048a95dcd50b4a6ed035e497345"
+    } ],
+    "fileName" : "08f7b69e202a4048a95dcd50b4a6ed035e497345.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Community Outreach",
+    "collectionID" : "f0d07e79da6246cd9d542d623144c584283ce55d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f0d07e79da6246cd9d542d623144c584283ce55d"
+    } ],
+    "fileName" : "f0d07e79da6246cd9d542d623144c584283ce55d.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Family History",
+    "collectionID" : "ebe3553a776e4d57bcb585f52a74b24d89349f1a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ebe3553a776e4d57bcb585f52a74b24d89349f1a"
+    } ],
+    "fileName" : "ebe3553a776e4d57bcb585f52a74b24d89349f1a.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/People",
+    "collectionID" : "651246a3ea984305aa69c4ac60bf4bfd0c59958a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/651246a3ea984305aa69c4ac60bf4bfd0c59958a"
+    } ],
+    "fileName" : "651246a3ea984305aa69c4ac60bf4bfd0c59958a.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Broadcasts",
+    "collectionID" : "50537c5f79174fd7b5f278befc6ed2410ee7aacd",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T07:16:06.265-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/50537c5f79174fd7b5f278befc6ed2410ee7aacd"
+    } ],
+    "fileName" : "50537c5f79174fd7b5f278befc6ed2410ee7aacd.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Callings and Trainings",
+    "collectionID" : "0efecc3ea4e34a038564924f53b4517bab7457be",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0efecc3ea4e34a038564924f53b4517bab7457be"
+    } ],
+    "fileName" : "0efecc3ea4e34a038564924f53b4517bab7457be.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Children",
+    "collectionID" : "db0c885910b24ef88e5c3f982a8fa64e5c365757",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-12T09:58:23.097-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/db0c885910b24ef88e5c3f982a8fa64e5c365757"
+    } ],
+    "fileName" : "db0c885910b24ef88e5c3f982a8fa64e5c365757.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Inspiration",
+    "collectionID" : "db242d92710542c391ad133f2dc35482c24dbadd",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/db242d92710542c391ad133f2dc35482c24dbadd"
+    } ],
+    "fileName" : "db242d92710542c391ad133f2dc35482c24dbadd.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Life Help",
+    "collectionID" : "a390717ced5c40b8a69cc07a72afbf961b467e85",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-21T13:24:07.864-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a390717ced5c40b8a69cc07a72afbf961b467e85"
+    } ],
+    "fileName" : "a390717ced5c40b8a69cc07a72afbf961b467e85.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Scriptures",
+    "collectionID" : "14022678f11a4de3ba2a054167e399922f077467",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T01:12:35.553-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/14022678f11a4de3ba2a054167e399922f077467"
+    } ],
+    "fileName" : "14022678f11a4de3ba2a054167e399922f077467.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Sharing the Gospel",
+    "collectionID" : "4c1f79f1762d4339b6205b863ca534fcbed5d45e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T20:32:54.357-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4c1f79f1762d4339b6205b863ca534fcbed5d45e"
+    } ],
+    "fileName" : "4c1f79f1762d4339b6205b863ca534fcbed5d45e.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Teaching and Lessons",
+    "collectionID" : "f0feeb3a339548348cad4f73558e94da4c8fa841",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T07:02:42.162-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f0feeb3a339548348cad4f73558e94da4c8fa841"
+    } ],
+    "fileName" : "f0feeb3a339548348cad4f73558e94da4c8fa841.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Topics",
+    "collectionID" : "4e61fc328c35483f8f10e789e4adf0b6f9d30c6e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-05-25T20:06:41.101-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4e61fc328c35483f8f10e789e4adf0b6f9d30c6e"
+    } ],
+    "fileName" : "4e61fc328c35483f8f10e789e4adf0b6f9d30c6e.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Youth",
+    "collectionID" : "e0e7427a352e40ebb3a03c7b502081077dc6dda7",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T16:51:15.411-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e0e7427a352e40ebb3a03c7b502081077dc6dda7"
+    } ],
+    "fileName" : "e0e7427a352e40ebb3a03c7b502081077dc6dda7.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian - Video/Holidays",
+    "collectionID" : "07093787dad94146a9059cce92e61fc7",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-22T12:30:47.972-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/07093787dad94146a9059cce92e61fc7"
+    } ],
+    "fileName" : "07093787dad94146a9059cce92e61fc7.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "665242aba86b474fb28d3d247f7504ba.json",
+  "name" : "Ukrainian - Video",
+  "publicTitle" : "Відео",
+  "description" : "У найбільшій колекції відео, створеній Церквою Ісуса Христа Святих Останніх Днів, є відео для уроків, для молоді, дітей, а також для натхнення, навчання тощо."
+}

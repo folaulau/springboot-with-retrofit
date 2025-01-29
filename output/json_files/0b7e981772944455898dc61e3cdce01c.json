@@ -1,0 +1,60 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/European Portuguese - Video",
+  "collectionID" : "0b7e981772944455898dc61e3cdce01c",
+  "language" : "ept",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-10-07T14:02:24.400-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0b7e981772944455898dc61e3cdce01c"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "ept"
+  }, {
+    "key" : "orderIndex",
+    "value" : "115"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "ept"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Vídeos",
+    "language" : "ept"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/European Portuguese - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "0fb403cd06ff4bbc801bd886b50a7778",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-02T20:24:40.532-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0fb403cd06ff4bbc801bd886b50a7778"
+    } ],
+    "fileName" : "0fb403cd06ff4bbc801bd886b50a7778.json"
+  }, {
+    "path" : "Mobile Media Library/European Portuguese - Video/Broadcasts",
+    "collectionID" : "a2471169c6d24dc2bfedc607514db3ae",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-24T10:45:26.036-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a2471169c6d24dc2bfedc607514db3ae"
+    } ],
+    "fileName" : "a2471169c6d24dc2bfedc607514db3ae.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "0b7e981772944455898dc61e3cdce01c.json",
+  "name" : "European Portuguese - Video",
+  "publicTitle" : "Vídeos"
+}

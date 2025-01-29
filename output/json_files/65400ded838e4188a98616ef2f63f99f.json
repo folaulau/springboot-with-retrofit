@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Russian - Audio",
+  "collectionID" : "65400ded838e4188a98616ef2f63f99f",
+  "language" : "rus",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T09:57:47.537-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/65400ded838e4188a98616ef2f63f99f"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "rus"
+  }, {
+    "key" : "orderIndex",
+    "value" : "39"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "65400ded838e4188a98616ef2f63f99f.json",
+  "name" : "Russian - Audio"
+}

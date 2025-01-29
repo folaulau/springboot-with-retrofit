@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Dutch  - Images",
+  "collectionID" : "93552b1096b349baaf97a496da9aed7fae1b3f83",
+  "language" : "nld",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-11T17:00:33.382-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/93552b1096b349baaf97a496da9aed7fae1b3f83"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "76"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "nld"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Afbeeldingen",
+    "language" : "nld"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Dutch  - Images/Easter",
+    "collectionID" : "46b404d41f4c498cbf2f93fe01a0678e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-11T17:09:06.142-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/46b404d41f4c498cbf2f93fe01a0678e"
+    } ],
+    "fileName" : "46b404d41f4c498cbf2f93fe01a0678e.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch  - Images/Seminary and Institute",
+    "collectionID" : "96cd0a554fb64b8991ae2f56309b7645",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-11T17:18:27.908-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/96cd0a554fb64b8991ae2f56309b7645"
+    } ],
+    "fileName" : "96cd0a554fb64b8991ae2f56309b7645.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch  - Images/Church Leaders",
+    "collectionID" : "ca116a98e24f49538eeae7386fd242d6",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-11T17:01:24.824-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ca116a98e24f49538eeae7386fd242d6"
+    } ],
+    "fileName" : "ca116a98e24f49538eeae7386fd242d6.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch  - Images/Gospel Art",
+    "collectionID" : "ab8b362152a24c008d2b5c28f6ad6126",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-11T17:09:47.565-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ab8b362152a24c008d2b5c28f6ad6126"
+    } ],
+    "fileName" : "ab8b362152a24c008d2b5c28f6ad6126.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "93552b1096b349baaf97a496da9aed7fae1b3f83.json",
+  "name" : "Dutch  - Images",
+  "publicTitle" : "Afbeeldingen"
+}

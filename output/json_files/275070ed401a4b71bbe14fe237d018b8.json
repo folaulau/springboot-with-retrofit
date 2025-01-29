@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Dutch - Featured",
+  "collectionID" : "275070ed401a4b71bbe14fe237d018b8",
+  "language" : "nld",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T11:14:24.454-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/275070ed401a4b71bbe14fe237d018b8"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "74"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "nld"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Uitgelicht",
+    "language" : "nld"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Dutch - Featured/Recent Inspirational Messages",
+    "collectionID" : "92cfa17291d0413cb8281f9954466346",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T11:31:57.003-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/92cfa17291d0413cb8281f9954466346"
+    } ],
+    "fileName" : "92cfa17291d0413cb8281f9954466346.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch - Featured/Just Added",
+    "collectionID" : "c7b62e5af24340faaae46fd8d184b501",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-24T17:42:48.565-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c7b62e5af24340faaae46fd8d184b501"
+    } ],
+    "fileName" : "c7b62e5af24340faaae46fd8d184b501.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch - Featured/General Conference Feature",
+    "collectionID" : "c425fdf08c90469e978ddf811cbf7d69",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-28T13:50:23.573-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c425fdf08c90469e978ddf811cbf7d69"
+    } ],
+    "fileName" : "c425fdf08c90469e978ddf811cbf7d69.json"
+  }, {
+    "path" : "Mobile Media Library/Dutch - Featured/Worldwide Day of Testimony",
+    "collectionID" : "144b414aed164f4d97903add9a7b1dae",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T14:17:38.184-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/144b414aed164f4d97903add9a7b1dae"
+    } ],
+    "fileName" : "144b414aed164f4d97903add9a7b1dae.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "275070ed401a4b71bbe14fe237d018b8.json",
+  "name" : "Dutch - Featured",
+  "publicTitle" : "Uitgelicht"
+}

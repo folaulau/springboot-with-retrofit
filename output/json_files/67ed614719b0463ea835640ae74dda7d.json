@@ -1,0 +1,46 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Albanian - Videos",
+  "collectionID" : "67ed614719b0463ea835640ae74dda7d",
+  "language" : "alb",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-10-24T10:11:39.567-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/67ed614719b0463ea835640ae74dda7d"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "117"
+  }, {
+    "key" : "collectionUri",
+    "value" : "videos",
+    "language" : "alb"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Materiale Filmike",
+    "language" : "alb"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Albanian - Videos/Broadcasts",
+    "collectionID" : "b9f2097e18264e0e870bf6d64121203a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-24T10:05:26.382-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b9f2097e18264e0e870bf6d64121203a"
+    } ],
+    "fileName" : "b9f2097e18264e0e870bf6d64121203a.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "67ed614719b0463ea835640ae74dda7d.json",
+  "name" : "Albanian - Videos",
+  "publicTitle" : "Materiale Filmike"
+}

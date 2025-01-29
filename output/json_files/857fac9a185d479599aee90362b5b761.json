@@ -1,0 +1,116 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Mandarin Simplified - Featured",
+  "collectionID" : "857fac9a185d479599aee90362b5b761",
+  "language" : "zhs",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-05T15:32:01.206-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/857fac9a185d479599aee90362b5b761"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "52"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured"
+  }, {
+    "key" : "publicTitle",
+    "value" : "精选"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "zhs"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "zhs"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Mandarin Simplified - Featured",
+    "language" : "zhs"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/Recent Inspirational Messages",
+    "collectionID" : "2de97e4a2d35490faef734fcec8ac7fd",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T11:49:43.837-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2de97e4a2d35490faef734fcec8ac7fd"
+    } ],
+    "fileName" : "2de97e4a2d35490faef734fcec8ac7fd.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/Just Added",
+    "collectionID" : "15bf9714f01943e080391ce4795d092e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-25T13:29:42.238-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/15bf9714f01943e080391ce4795d092e"
+    } ],
+    "fileName" : "15bf9714f01943e080391ce4795d092e.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/General Conference Feature",
+    "collectionID" : "3fc0440abe17471d960e65d5665be78d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-11-06T10:40:55.436-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3fc0440abe17471d960e65d5665be78d"
+    } ],
+    "fileName" : "3fc0440abe17471d960e65d5665be78d.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/Worldwide Day of Testimony",
+    "collectionID" : "e66d96bf39174fc780a087c46e1a7260",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T11:47:01.625-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e66d96bf39174fc780a087c46e1a7260"
+    } ],
+    "fileName" : "e66d96bf39174fc780a087c46e1a7260.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/Newsroom Feature",
+    "collectionID" : "b6579a05aa994a3ab00056dcee8aaa87",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T11:56:47.704-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b6579a05aa994a3ab00056dcee8aaa87"
+    } ],
+    "fileName" : "b6579a05aa994a3ab00056dcee8aaa87.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/Seminary and Institute Invitation",
+    "collectionID" : "9eb98c9e5998429a94b6d5e9edb7ce87",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-09-17T11:46:37.289-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9eb98c9e5998429a94b6d5e9edb7ce87"
+    } ],
+    "fileName" : "9eb98c9e5998429a94b6d5e9edb7ce87.json"
+  }, {
+    "path" : "Mobile Media Library/Mandarin Simplified - Featured/This Week in Come Follow Me",
+    "collectionID" : "f897b27982c64cc08a45ade014891ce5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-11-12T15:51:38.470-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f897b27982c64cc08a45ade014891ce5"
+    } ],
+    "fileName" : "f897b27982c64cc08a45ade014891ce5.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "857fac9a185d479599aee90362b5b761.json",
+  "name" : "Mandarin Simplified - Featured",
+  "publicTitle" : "精选"
+}

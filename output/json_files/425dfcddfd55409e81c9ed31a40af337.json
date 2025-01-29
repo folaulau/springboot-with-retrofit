@@ -1,0 +1,64 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Mandarin Simplified - GS Banner - Videos Only",
+  "collectionID" : "425dfcddfd55409e81c9ed31a40af337",
+  "language" : "zhs",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:55:00.908-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/425dfcddfd55409e81c9ed31a40af337"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "53"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "zhs"
+  }, {
+    "key" : "collectionUri",
+    "value" : "gospel-stream-banner",
+    "language" : "zhs"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Mandarin Simplified - GS Banner - Videos Only",
+    "language" : "zhs"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "3f6f1b44f53211eeaa88eeeeac1e3d1dab0a24f9"
+    },
+    "index" : 3,
+    "addedDate" : 1727734730990,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6cdb2d9d7f5e11efb0ca022e7e432ed96c4eb75a"
+    },
+    "index" : 0,
+    "addedDate" : 1731951051608,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3f8324e97f6011efb0ca022e7e432ed9453a392a"
+    },
+    "index" : 2,
+    "addedDate" : 1731429857281,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "4fd9398096f311ef86e00626c361eb55dd8c2521"
+    },
+    "index" : 1,
+    "addedDate" : 1731951783524,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "425dfcddfd55409e81c9ed31a40af337.json",
+  "name" : "Mandarin Simplified - GS Banner - Videos Only",
+  "publicTitle" : "Mandarin Simplified - GS Banner - Videos Only"
+}

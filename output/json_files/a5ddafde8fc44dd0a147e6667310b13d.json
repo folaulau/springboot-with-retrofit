@@ -1,0 +1,66 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Indonesian - Featured",
+  "collectionID" : "a5ddafde8fc44dd0a147e6667310b13d",
+  "language" : "ind",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-11T16:34:19.579-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a5ddafde8fc44dd0a147e6667310b13d"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "86"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "ind"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Disorot",
+    "language" : "ind"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Indonesian - Featured/Recent Inspirational Messages",
+    "collectionID" : "daa5244e53a74ec9863962b20c7e30aa",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T11:28:18.360-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/daa5244e53a74ec9863962b20c7e30aa"
+    } ],
+    "fileName" : "daa5244e53a74ec9863962b20c7e30aa.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Featured/Just Added",
+    "collectionID" : "432809046b734980b716bf4e2505de9b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-24T17:27:17.195-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/432809046b734980b716bf4e2505de9b"
+    } ],
+    "fileName" : "432809046b734980b716bf4e2505de9b.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Featured/General Conference Feature",
+    "collectionID" : "1ca81bd3af2d4fc093f492636b28dd26",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-28T14:04:39.734-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1ca81bd3af2d4fc093f492636b28dd26"
+    } ],
+    "fileName" : "1ca81bd3af2d4fc093f492636b28dd26.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "a5ddafde8fc44dd0a147e6667310b13d.json",
+  "name" : "Indonesian - Featured",
+  "publicTitle" : "Disorot"
+}

@@ -1,0 +1,31 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Japanese - Audio",
+  "collectionID" : "e22fa1f0dd2e4c15869e25090b354c60",
+  "language" : "jpn",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2022-03-28T09:58:34.949-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e22fa1f0dd2e4c15869e25090b354c60"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "cff86be91539e8cfcf96d57e80f4427f722dce2c"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "collectionUri",
+    "value" : "audio",
+    "language" : "jpn"
+  }, {
+    "key" : "orderIndex",
+    "value" : "44"
+  } ],
+  "children" : [ ],
+  "assets" : [ ],
+  "fileName" : "e22fa1f0dd2e4c15869e25090b354c60.json",
+  "name" : "Japanese - Audio"
+}

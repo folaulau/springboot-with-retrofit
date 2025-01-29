@@ -1,0 +1,78 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Russian - GS Banner - Videos Only",
+  "collectionID" : "72222d0d004e4ee6a5e141d3366a787f",
+  "language" : "rus",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:53:59.262-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/72222d0d004e4ee6a5e141d3366a787f"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "38"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "rus"
+  }, {
+    "key" : "collectionUri",
+    "value" : "gospel-stream-banner",
+    "language" : "rus"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Gospel Stream Banner",
+    "language" : "rus"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "672c6fdb6ba12880a157b2545255f0168ccedbc8"
+    },
+    "index" : 3,
+    "addedDate" : 1731430086371,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "d947d64ca31fb782a1994092329d2a42909e72d1"
+    },
+    "index" : 4,
+    "addedDate" : 1731429980853,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "4ffb4067f53211eead68eeeeac1e5b9f04fa599c"
+    },
+    "index" : 5,
+    "addedDate" : 1721680357402,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6ba2382a7f5e11efb0ca022e7e432ed9b558988f"
+    },
+    "index" : 0,
+    "addedDate" : 1731950959220,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3f212eb27f6011efb0ca022e7e432ed9b48d2eb6"
+    },
+    "index" : 2,
+    "addedDate" : 1731429808149,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "751de4d796f211efa193022e7e432ed9b7a6836c"
+    },
+    "index" : 1,
+    "addedDate" : 1731951746748,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "72222d0d004e4ee6a5e141d3366a787f.json",
+  "name" : "Russian - GS Banner - Videos Only",
+  "publicTitle" : "Gospel Stream Banner"
+}

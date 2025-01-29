@@ -1,0 +1,76 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Ukrainian  - Images",
+  "collectionID" : "0e093a917a65461faf95e927456e1debaf7afc72",
+  "language" : "ukr",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-10-14T15:31:50.294-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0e093a917a65461faf95e927456e1debaf7afc72"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "112"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "ukr"
+  }, {
+    "key" : "publicTitle",
+    "value" : "зображення",
+    "language" : "ukr"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Ukrainian  - Images/Easter",
+    "collectionID" : "06db452856ff411894735ec058608a67",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:44:15.446-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/06db452856ff411894735ec058608a67"
+    } ],
+    "fileName" : "06db452856ff411894735ec058608a67.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian  - Images/Gospel Art",
+    "collectionID" : "fbb91904b9384c03b355f592ec2c72fd",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:45:15.431-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/fbb91904b9384c03b355f592ec2c72fd"
+    } ],
+    "fileName" : "fbb91904b9384c03b355f592ec2c72fd.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian  - Images/Seminary and Institute",
+    "collectionID" : "52d9cbc097e8443db8fdd8fb6f774552",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:51:54.403-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/52d9cbc097e8443db8fdd8fb6f774552"
+    } ],
+    "fileName" : "52d9cbc097e8443db8fdd8fb6f774552.json"
+  }, {
+    "path" : "Mobile Media Library/Ukrainian  - Images/Church Leaders",
+    "collectionID" : "d3100c9f2a014645a8afafed4e7376cb",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-14T15:33:06.639-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d3100c9f2a014645a8afafed4e7376cb"
+    } ],
+    "fileName" : "d3100c9f2a014645a8afafed4e7376cb.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "0e093a917a65461faf95e927456e1debaf7afc72.json",
+  "name" : "Ukrainian  - Images",
+  "publicTitle" : "зображення"
+}

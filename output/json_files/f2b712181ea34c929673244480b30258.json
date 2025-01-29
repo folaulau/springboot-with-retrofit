@@ -1,0 +1,137 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Spanish: GS Banner - Videos Only",
+  "collectionID" : "f2b712181ea34c929673244480b30258",
+  "language" : "spa",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:46:58.726-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f2b712181ea34c929673244480b30258"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "9"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "spa"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Gospel Stream Banner",
+    "language" : "spa"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "651ceb79e915010098bd1e9bc47bbc008be348aa"
+    },
+    "index" : 6,
+    "addedDate" : 1730833769658,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "19e440d5c7c9899ba2731e2939e24ec482b7485f"
+    },
+    "index" : 5,
+    "addedDate" : 1731429933288,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "12a3e672a1191e562ad2368bbe9356fbad6192db"
+    },
+    "index" : 12,
+    "addedDate" : 1724087346524,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3c7644221faa92a9ac91ac096ae89dafb11aed88"
+    },
+    "index" : 15,
+    "addedDate" : 1722283975374,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "87322E58A71C887F6EC7DFF5DDF45BBD59A5F593"
+    },
+    "index" : 10,
+    "addedDate" : 1728906724285,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "5EFEFF30963C9036C46B127809184D9D230BC64D"
+    },
+    "index" : 13,
+    "addedDate" : 1724087361429,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "31F3750B7B44A8585D31A0C442070DDD8D53EBBD"
+    },
+    "index" : 9,
+    "addedDate" : 1730132107441,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "0aec6046f50c11eebae2eeeeac1e858373da24d3"
+    },
+    "index" : 14,
+    "addedDate" : 1722283964176,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3b0669fef53211eea55ceeeeac1e2777807514f1"
+    },
+    "index" : 11,
+    "addedDate" : 1727108215701,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6bc725517f5e11efb0ca022e7e432ed9f406cb79"
+    },
+    "index" : 0,
+    "addedDate" : 1731950894625,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3e80339d7f6011efb0ca022e7e432ed9df24e985"
+    },
+    "index" : 4,
+    "addedDate" : 1731429753602,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "47fc09207f6011efb0ca022e7e432ed94beb143f"
+    },
+    "index" : 8,
+    "addedDate" : 1730132115350,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "13e4125e8d8711ef8b550626c361eb555822dc4b"
+    },
+    "index" : 7,
+    "addedDate" : 1729880094177,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "754da77296f211efa193022e7e432ed99375052f"
+    },
+    "index" : 2,
+    "addedDate" : 1731951422063,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "2d0b3c7e9d5b11efb9960626c361eb557705083d"
+    },
+    "index" : 3,
+    "addedDate" : 1731951244000,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "f2b712181ea34c929673244480b30258.json",
+  "name" : "Spanish: GS Banner - Videos Only",
+  "publicTitle" : "Gospel Stream Banner"
+}

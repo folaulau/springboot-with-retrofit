@@ -1,0 +1,71 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Mandarin Traditional - GS Banner - Videos Only",
+  "collectionID" : "941dda836bd84ce4a7a78fd811d151c5",
+  "language" : "zho",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-11-18T10:55:24.816-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/941dda836bd84ce4a7a78fd811d151c5"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "58"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "zho"
+  }, {
+    "key" : "collectionUri",
+    "value" : "gospel-stream-banner",
+    "language" : "zho"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Mandarin Traditional - GS Banner - Videos Only",
+    "language" : "zho"
+  } ],
+  "children" : [ ],
+  "assets" : [ {
+    "asset" : {
+      "assetID" : "3fe81f61cdc45bba1b43771268d0f44a24106da0"
+    },
+    "index" : 3,
+    "addedDate" : 1731430121981,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "52570ac2f53211eeb38beeeeac1e0c5a22846fec"
+    },
+    "index" : 4,
+    "addedDate" : 1727296115246,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "6c8a757a7f5e11efb0ca022e7e432ed9cb699003"
+    },
+    "index" : 0,
+    "addedDate" : 1731951067590,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "3f72d1357f6011efb0ca022e7e432ed957045eb5"
+    },
+    "index" : 2,
+    "addedDate" : 1731429865676,
+    "metadata" : [ ]
+  }, {
+    "asset" : {
+      "assetID" : "7544f4e096f211efa193022e7e432ed95b7cd7ef"
+    },
+    "index" : 1,
+    "addedDate" : 1731951796194,
+    "metadata" : [ ]
+  } ],
+  "fileName" : "941dda836bd84ce4a7a78fd811d151c5.json",
+  "name" : "Mandarin Traditional - GS Banner - Videos Only",
+  "publicTitle" : "Mandarin Traditional - GS Banner - Videos Only"
+}

@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Norwegian - Video",
+  "collectionID" : "9544f987429b48a299c6b4cd742d3e68",
+  "language" : "nor",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-23T10:25:08.074-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9544f987429b48a299c6b4cd742d3e68"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "93"
+  }, {
+    "key" : "description",
+    "value" : "Den største samlingen av videoer opprettet av Jesu Kristi Kirke av Siste Dagers Hellige, herunder videoer for leksjoner, ungdom, barn, inspirasjon, opplæring og mer.",
+    "language" : "nor"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "nor"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Video",
+    "language" : "nor"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Norwegian - Video/Church History",
+    "collectionID" : "8dcec91cd3aa48299c08120daabcbcf34a681c89",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8dcec91cd3aa48299c08120daabcbcf34a681c89"
+    } ],
+    "fileName" : "8dcec91cd3aa48299c08120daabcbcf34a681c89.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Community Outreach",
+    "collectionID" : "c0fa5055ca964eb8b086de38c32e043cf06ce2b5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c0fa5055ca964eb8b086de38c32e043cf06ce2b5"
+    } ],
+    "fileName" : "c0fa5055ca964eb8b086de38c32e043cf06ce2b5.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/People",
+    "collectionID" : "9c23d29ef36f43d891cd5c07b2ba766affb82409",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9c23d29ef36f43d891cd5c07b2ba766affb82409"
+    } ],
+    "fileName" : "9c23d29ef36f43d891cd5c07b2ba766affb82409.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Broadcasts",
+    "collectionID" : "ac58d6873b8c420cbc0bcc565f2ef78aa05f4933",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T08:56:46.586-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ac58d6873b8c420cbc0bcc565f2ef78aa05f4933"
+    } ],
+    "fileName" : "ac58d6873b8c420cbc0bcc565f2ef78aa05f4933.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Callings and Trainings",
+    "collectionID" : "a3a749fc99dd478da71de78903bab4a825e67a59",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a3a749fc99dd478da71de78903bab4a825e67a59"
+    } ],
+    "fileName" : "a3a749fc99dd478da71de78903bab4a825e67a59.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Children",
+    "collectionID" : "6cee121bf2dd45f094b9095aa470a6ed2389a46b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/6cee121bf2dd45f094b9095aa470a6ed2389a46b"
+    } ],
+    "fileName" : "6cee121bf2dd45f094b9095aa470a6ed2389a46b.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Family History",
+    "collectionID" : "cd5468d076f94c88a7a0ffc943b0c111126ce8f5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/cd5468d076f94c88a7a0ffc943b0c111126ce8f5"
+    } ],
+    "fileName" : "cd5468d076f94c88a7a0ffc943b0c111126ce8f5.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Inspiration",
+    "collectionID" : "7557f65685a845fa8fd727bd86e4d87408a8b75f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7557f65685a845fa8fd727bd86e4d87408a8b75f"
+    } ],
+    "fileName" : "7557f65685a845fa8fd727bd86e4d87408a8b75f.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Life Help",
+    "collectionID" : "461b799835bc4b47916a7e4869e68e6b5afd42c0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T10:25:32.092-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/461b799835bc4b47916a7e4869e68e6b5afd42c0"
+    } ],
+    "fileName" : "461b799835bc4b47916a7e4869e68e6b5afd42c0.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Scriptures",
+    "collectionID" : "a53321dee21741fc8489e32d1fb0bcd93942459c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:06:14.260-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a53321dee21741fc8489e32d1fb0bcd93942459c"
+    } ],
+    "fileName" : "a53321dee21741fc8489e32d1fb0bcd93942459c.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Sharing the Gospel",
+    "collectionID" : "ca59574ff1c74c6ba8285357fab6275f037eac98",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T09:14:00.746-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ca59574ff1c74c6ba8285357fab6275f037eac98"
+    } ],
+    "fileName" : "ca59574ff1c74c6ba8285357fab6275f037eac98.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Teaching and Lessons",
+    "collectionID" : "8fb28b54fa004468ad4e266900e04a0eb9b484b0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T09:18:56.111-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8fb28b54fa004468ad4e266900e04a0eb9b484b0"
+    } ],
+    "fileName" : "8fb28b54fa004468ad4e266900e04a0eb9b484b0.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Topics",
+    "collectionID" : "e64d93dfa3bb4ddbbf8352528c37636f39b4fc06",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-05-25T19:58:40.099-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e64d93dfa3bb4ddbbf8352528c37636f39b4fc06"
+    } ],
+    "fileName" : "e64d93dfa3bb4ddbbf8352528c37636f39b4fc06.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Youth",
+    "collectionID" : "195c1a41e944404ea59880ed3a83ddd7cf03fc61",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-28T10:47:12.885-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/195c1a41e944404ea59880ed3a83ddd7cf03fc61"
+    } ],
+    "fileName" : "195c1a41e944404ea59880ed3a83ddd7cf03fc61.json"
+  }, {
+    "path" : "Mobile Media Library/Norwegian - Video/Holidays",
+    "collectionID" : "5271adb10ad744abadb761c15371292d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-21T16:23:50.148-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5271adb10ad744abadb761c15371292d"
+    } ],
+    "fileName" : "5271adb10ad744abadb761c15371292d.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "9544f987429b48a299c6b4cd742d3e68.json",
+  "name" : "Norwegian - Video",
+  "publicTitle" : "Video",
+  "description" : "Den største samlingen av videoer opprettet av Jesu Kristi Kirke av Siste Dagers Hellige, herunder videoer for leksjoner, ungdom, barn, inspirasjon, opplæring og mer."
+}

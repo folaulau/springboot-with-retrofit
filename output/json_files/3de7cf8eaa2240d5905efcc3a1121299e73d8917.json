@@ -1,0 +1,116 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Korean - Images",
+  "collectionID" : "3de7cf8eaa2240d5905efcc3a1121299e73d8917",
+  "language" : "kor",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-09-18T12:03:47.291-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3de7cf8eaa2240d5905efcc3a1121299e73d8917"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "6a577129ad6d2231ee1715db32ddf72721fdb049"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "50"
+  }, {
+    "key" : "collectionUri",
+    "value" : "images",
+    "language" : "kor"
+  }, {
+    "key" : "publicTitle",
+    "value" : "이미지",
+    "language" : "kor"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Korean - Images/Old Testament Stories",
+    "collectionID" : "cb2500949ab24713a1d037590de1b0a0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-12-19T20:48:11.699-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/cb2500949ab24713a1d037590de1b0a0"
+    } ],
+    "fileName" : "cb2500949ab24713a1d037590de1b0a0.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Book of Mormon Videos Images",
+    "collectionID" : "f1e471ebb59142e8bbaf799a93450338",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-06T22:32:25.912-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f1e471ebb59142e8bbaf799a93450338"
+    } ],
+    "fileName" : "f1e471ebb59142e8bbaf799a93450338.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Easter",
+    "collectionID" : "f7c9f4bb187c419a8c24c21560c1a0e6",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-07T19:34:21.588-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f7c9f4bb187c419a8c24c21560c1a0e6"
+    } ],
+    "fileName" : "f7c9f4bb187c419a8c24c21560c1a0e6.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Everyday People",
+    "collectionID" : "f937de045f4e4af0aa849b53193e086f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-07T19:36:22.635-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f937de045f4e4af0aa849b53193e086f"
+    } ],
+    "fileName" : "f937de045f4e4af0aa849b53193e086f.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Primary",
+    "collectionID" : "9f2385af477b48d0ab559342f968d631",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-08T18:25:10.732-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9f2385af477b48d0ab559342f968d631"
+    } ],
+    "fileName" : "9f2385af477b48d0ab559342f968d631.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Seminary and Institute",
+    "collectionID" : "1b1c62d4348a4aaabbae80b1703dd781",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-08T18:29:06.965-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1b1c62d4348a4aaabbae80b1703dd781"
+    } ],
+    "fileName" : "1b1c62d4348a4aaabbae80b1703dd781.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Church Leaders",
+    "collectionID" : "b0d2c2f537a248a2acf5035f9d8549d4",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-07T19:23:24.082-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b0d2c2f537a248a2acf5035f9d8549d4"
+    } ],
+    "fileName" : "b0d2c2f537a248a2acf5035f9d8549d4.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Images/Gospel Art",
+    "collectionID" : "b1629774354c42ef9d0bbab8d3708c0b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-09-08T18:15:04.712-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b1629774354c42ef9d0bbab8d3708c0b"
+    } ],
+    "fileName" : "b1629774354c42ef9d0bbab8d3708c0b.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "3de7cf8eaa2240d5905efcc3a1121299e73d8917.json",
+  "name" : "Korean - Images",
+  "publicTitle" : "이미지"
+}

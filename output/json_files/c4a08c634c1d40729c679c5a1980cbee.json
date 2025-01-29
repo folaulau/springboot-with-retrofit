@@ -1,0 +1,191 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Indonesian - Video",
+  "collectionID" : "c4a08c634c1d40729c679c5a1980cbee",
+  "language" : "ind",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-06-23T10:15:00.215-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c4a08c634c1d40729c679c5a1980cbee"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5fed24fd67a45d2be64c74442c4f9d0bd5a89d21"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "89"
+  }, {
+    "key" : "description",
+    "value" : "Koleksi video terbesar yang dibuat oleh Gereja Yesus Kristus dari Orang-Orang Suci Zaman Akhir, mencakup video untuk pelajaran, remaja, anak-anak, inspirasi, pelatihan, dan lebih banyak lagi.",
+    "language" : "ind"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "ind"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Video",
+    "language" : "ind"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Indonesian - Video/Church History",
+    "collectionID" : "270fb05275c745e695d0dbb128a385e9f695c00b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/270fb05275c745e695d0dbb128a385e9f695c00b"
+    } ],
+    "fileName" : "270fb05275c745e695d0dbb128a385e9f695c00b.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Community Outreach",
+    "collectionID" : "4c54c8b9a502402ea35d1c775584bcda936b895f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4c54c8b9a502402ea35d1c775584bcda936b895f"
+    } ],
+    "fileName" : "4c54c8b9a502402ea35d1c775584bcda936b895f.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/People",
+    "collectionID" : "8072d44f91474d0da4fdf878467655f7a8cc439b",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/8072d44f91474d0da4fdf878467655f7a8cc439b"
+    } ],
+    "fileName" : "8072d44f91474d0da4fdf878467655f7a8cc439b.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Youth",
+    "collectionID" : "9930c920174347bd84d507388a781c880e197daf",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T09:44:44.630-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/9930c920174347bd84d507388a781c880e197daf"
+    } ],
+    "fileName" : "9930c920174347bd84d507388a781c880e197daf.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Broadcasts",
+    "collectionID" : "5c0c40a44bb7470aaf6f9cff228d855674bd394f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T09:45:41.844-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5c0c40a44bb7470aaf6f9cff228d855674bd394f"
+    } ],
+    "fileName" : "5c0c40a44bb7470aaf6f9cff228d855674bd394f.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Callings and Trainings",
+    "collectionID" : "fe1d6a37623648fcbd4e31184f29b6c9f1148d47",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/fe1d6a37623648fcbd4e31184f29b6c9f1148d47"
+    } ],
+    "fileName" : "fe1d6a37623648fcbd4e31184f29b6c9f1148d47.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Children",
+    "collectionID" : "25281de31dce4cca82314c8831899c2891f52185",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/25281de31dce4cca82314c8831899c2891f52185"
+    } ],
+    "fileName" : "25281de31dce4cca82314c8831899c2891f52185.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Family History",
+    "collectionID" : "d0619273f9bf421797ac057b121c1bf9183691f4",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d0619273f9bf421797ac057b121c1bf9183691f4"
+    } ],
+    "fileName" : "d0619273f9bf421797ac057b121c1bf9183691f4.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Inspiration",
+    "collectionID" : "7fcebbd94b024da1b20d73e6be2f515c24cc1051",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7fcebbd94b024da1b20d73e6be2f515c24cc1051"
+    } ],
+    "fileName" : "7fcebbd94b024da1b20d73e6be2f515c24cc1051.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Life Help",
+    "collectionID" : "510534b19a6f46f5816e38e10cc93585a35ca9ec",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T10:15:37.330-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/510534b19a6f46f5816e38e10cc93585a35ca9ec"
+    } ],
+    "fileName" : "510534b19a6f46f5816e38e10cc93585a35ca9ec.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Scriptures",
+    "collectionID" : "fff3deec9c164efd8dad7bad787e83b388e98d87",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-17T23:47:08.716-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/fff3deec9c164efd8dad7bad787e83b388e98d87"
+    } ],
+    "fileName" : "fff3deec9c164efd8dad7bad787e83b388e98d87.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Sharing the Gospel",
+    "collectionID" : "d7b840f22c244b5580ad21f00fd6427598d7a1c5",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T20:28:04.877-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d7b840f22c244b5580ad21f00fd6427598d7a1c5"
+    } ],
+    "fileName" : "d7b840f22c244b5580ad21f00fd6427598d7a1c5.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Teaching and Lessons",
+    "collectionID" : "0caf2a340c554fd891964e5dd1ef97f1cf2ed6fb",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T08:47:54.188-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/0caf2a340c554fd891964e5dd1ef97f1cf2ed6fb"
+    } ],
+    "fileName" : "0caf2a340c554fd891964e5dd1ef97f1cf2ed6fb.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Topics",
+    "collectionID" : "cc9790690b214237b1f79c70efc4c4788bef7e2c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-05-24T12:26:08.654-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/cc9790690b214237b1f79c70efc4c4788bef7e2c"
+    } ],
+    "fileName" : "cc9790690b214237b1f79c70efc4c4788bef7e2c.json"
+  }, {
+    "path" : "Mobile Media Library/Indonesian - Video/Holidays",
+    "collectionID" : "711fb651dfd34993b459369ced5cfd74",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-21T15:57:25.977-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/711fb651dfd34993b459369ced5cfd74"
+    } ],
+    "fileName" : "711fb651dfd34993b459369ced5cfd74.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "c4a08c634c1d40729c679c5a1980cbee.json",
+  "name" : "Indonesian - Video",
+  "publicTitle" : "Video",
+  "description" : "Koleksi video terbesar yang dibuat oleh Gereja Yesus Kristus dari Orang-Orang Suci Zaman Akhir, mencakup video untuk pelajaran, remaja, anak-anak, inspirasi, pelatihan, dan lebih banyak lagi."
+}

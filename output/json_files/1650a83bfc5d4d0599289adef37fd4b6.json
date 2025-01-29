@@ -1,0 +1,110 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Korean - Featured",
+  "collectionID" : "1650a83bfc5d4d0599289adef37fd4b6",
+  "language" : "kor",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-07-22T17:05:06.679-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1650a83bfc5d4d0599289adef37fd4b6"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "47"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "kor"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "kor"
+  }, {
+    "key" : "publicTitle",
+    "value" : "특집",
+    "language" : "kor"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Korean - Featured/Recent Inspirational Messages",
+    "collectionID" : "c897ca8f63314d64a97a58801317ca86",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-23T10:44:56.833-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c897ca8f63314d64a97a58801317ca86"
+    } ],
+    "fileName" : "c897ca8f63314d64a97a58801317ca86.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/Just Added",
+    "collectionID" : "302c634b02044686a15d544ba0ee3a94",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-07-22T17:04:51.523-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/302c634b02044686a15d544ba0ee3a94"
+    } ],
+    "fileName" : "302c634b02044686a15d544ba0ee3a94.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/General Conference Feature",
+    "collectionID" : "1f33d4539d0f4e4ca1d648e2d5c15f94",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-28T11:47:51.717-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1f33d4539d0f4e4ca1d648e2d5c15f94"
+    } ],
+    "fileName" : "1f33d4539d0f4e4ca1d648e2d5c15f94.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/Worldwide Day of Testimony",
+    "collectionID" : "530e8652b21a43e2be54c046418a1b00",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T13:22:52.801-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/530e8652b21a43e2be54c046418a1b00"
+    } ],
+    "fileName" : "530e8652b21a43e2be54c046418a1b00.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/Newsroom Feature",
+    "collectionID" : "bb3ffa9409ac49728f0c5b01aa64e089",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-11-21T19:56:47.549-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/bb3ffa9409ac49728f0c5b01aa64e089"
+    } ],
+    "fileName" : "bb3ffa9409ac49728f0c5b01aa64e089.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/Seminary and Institute Invitation",
+    "collectionID" : "167f3056ca3d4ea29659773bb18821a8",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-11-20T18:07:07.710-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/167f3056ca3d4ea29659773bb18821a8"
+    } ],
+    "fileName" : "167f3056ca3d4ea29659773bb18821a8.json"
+  }, {
+    "path" : "Mobile Media Library/Korean - Featured/This Week in Come Follow Me",
+    "collectionID" : "643b88764a06437b95a58d805ca9fd4c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-11-12T15:47:36.817-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/643b88764a06437b95a58d805ca9fd4c"
+    } ],
+    "fileName" : "643b88764a06437b95a58d805ca9fd4c.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "1650a83bfc5d4d0599289adef37fd4b6.json",
+  "name" : "Korean - Featured",
+  "publicTitle" : "특집"
+}

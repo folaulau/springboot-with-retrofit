@@ -1,0 +1,80 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/ASL - Featured",
+  "collectionID" : "ae9577d677184b59947d21bc2802da70",
+  "language" : "ase",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T10:15:04.139-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ae9577d677184b59947d21bc2802da70"
+  } ],
+  "coverImages" : [ {
+    "asset" : {
+      "assetID" : "5c5b75ddcf2269030e0462f3d042f36cce3d87c7"
+    }
+  } ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "67"
+  }, {
+    "key" : "channel",
+    "value" : "mobile",
+    "language" : "ase"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "ase"
+  }, {
+    "key" : "publicTitle",
+    "value" : "ASL: Featured",
+    "language" : "ase"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/ASL - Featured/Just Added",
+    "collectionID" : "447383d9f5e741de9d0102489e6a8540",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T14:32:46.619-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/447383d9f5e741de9d0102489e6a8540"
+    } ],
+    "fileName" : "447383d9f5e741de9d0102489e6a8540.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Featured/General Conference Feature",
+    "collectionID" : "268306b5cb014b5ea9cdbc1fb1fa6aa3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-10-28T13:42:57.295-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/268306b5cb014b5ea9cdbc1fb1fa6aa3"
+    } ],
+    "fileName" : "268306b5cb014b5ea9cdbc1fb1fa6aa3.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Featured/Worldwide Day of Testimony",
+    "collectionID" : "1334970a004249df8365c09580a13e88",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-04T14:32:13.859-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/1334970a004249df8365c09580a13e88"
+    } ],
+    "fileName" : "1334970a004249df8365c09580a13e88.json"
+  }, {
+    "path" : "Mobile Media Library/ASL - Featured/This Week in Come Follow Me",
+    "collectionID" : "932bf7845bb94f3a970c641cc97204a3",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2024-11-12T15:56:07.536-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/932bf7845bb94f3a970c641cc97204a3"
+    } ],
+    "fileName" : "932bf7845bb94f3a970c641cc97204a3.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "ae9577d677184b59947d21bc2802da70.json",
+  "name" : "ASL - Featured",
+  "publicTitle" : "ASL: Featured"
+}

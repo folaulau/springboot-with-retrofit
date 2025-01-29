@@ -1,0 +1,187 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Samoan - Video",
+  "collectionID" : "433add6bfc4642d1ac0809853fc8e2cd",
+  "language" : "smo",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2023-11-13T16:41:26.546-07:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/433add6bfc4642d1ac0809853fc8e2cd"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "97"
+  }, {
+    "key" : "description",
+    "value" : "O le tuufaatasiga sili ona tele o vitio na fatuina e Le Ekalesia a Iesu Keriso o le Au Paia o Aso e Gata Ai, e aofia ai vitio mo lesona, autalavou, tamaiti, musumusuga, aoaoga faamasani, ma isi.",
+    "language" : "smo"
+  }, {
+    "key" : "collectionUri",
+    "value" : "video",
+    "language" : "smo"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Vitio",
+    "language" : "smo"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Samoan - Video/Community Outreach",
+    "collectionID" : "b4a76fe8cdee4da8bff429d7211e5d911b507a91",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:18:59.976-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/b4a76fe8cdee4da8bff429d7211e5d911b507a91"
+    } ],
+    "fileName" : "b4a76fe8cdee4da8bff429d7211e5d911b507a91.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Broadcasts",
+    "collectionID" : "a10a0236909c465c958876820b17506d12bcda0c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T14:18:23.874-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/a10a0236909c465c958876820b17506d12bcda0c"
+    } ],
+    "fileName" : "a10a0236909c465c958876820b17506d12bcda0c.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Callings and Trainings",
+    "collectionID" : "4087eea96dd648c6bf1e76b17ef444d71cb9766a",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:18:59.976-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/4087eea96dd648c6bf1e76b17ef444d71cb9766a"
+    } ],
+    "fileName" : "4087eea96dd648c6bf1e76b17ef444d71cb9766a.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Children",
+    "collectionID" : "09f015369a9c4f2eb24b1db04c9b0dfe372e3f5c",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:18:59.976-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/09f015369a9c4f2eb24b1db04c9b0dfe372e3f5c"
+    } ],
+    "fileName" : "09f015369a9c4f2eb24b1db04c9b0dfe372e3f5c.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Church History",
+    "collectionID" : "e8d25c32599b45729beba766f334e0b510b62866",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-01T09:14:55.356-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/e8d25c32599b45729beba766f334e0b510b62866"
+    } ],
+    "fileName" : "e8d25c32599b45729beba766f334e0b510b62866.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Family History",
+    "collectionID" : "5e0cc3db7b9f4b008013c8c0068c8adc9f720755",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-01T09:14:23.477-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/5e0cc3db7b9f4b008013c8c0068c8adc9f720755"
+    } ],
+    "fileName" : "5e0cc3db7b9f4b008013c8c0068c8adc9f720755.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Inspiration",
+    "collectionID" : "d3471787c7f3403bb44717e641427c24dbbd9c67",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:18:59.976-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/d3471787c7f3403bb44717e641427c24dbbd9c67"
+    } ],
+    "fileName" : "d3471787c7f3403bb44717e641427c24dbbd9c67.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Life Help",
+    "collectionID" : "f4b750c75669432ab52dbb8ce66ef300dc37a30f",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-20T15:44:53.556-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f4b750c75669432ab52dbb8ce66ef300dc37a30f"
+    } ],
+    "fileName" : "f4b750c75669432ab52dbb8ce66ef300dc37a30f.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/People",
+    "collectionID" : "3544914203584c91b4b5861f0ad150942f2a0441",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-04-18T00:18:59.976-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/3544914203584c91b4b5861f0ad150942f2a0441"
+    } ],
+    "fileName" : "3544914203584c91b4b5861f0ad150942f2a0441.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Scriptural Reenactments and Teachings",
+    "collectionID" : "82d03fef09124e5faaf2735f6b8d1263052b7d6e",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-12-30T00:00:50.839-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/82d03fef09124e5faaf2735f6b8d1263052b7d6e"
+    } ],
+    "fileName" : "82d03fef09124e5faaf2735f6b8d1263052b7d6e.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Sharing the Gospel",
+    "collectionID" : "506e932ea6b2448db5a721be503e53305abba0e0",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-11-02T20:29:12.083-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/506e932ea6b2448db5a721be503e53305abba0e0"
+    } ],
+    "fileName" : "506e932ea6b2448db5a721be503e53305abba0e0.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Teaching and Lessons",
+    "collectionID" : "2061ac3939294dc0815180d54679811fb5050fad",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T09:17:01.200-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2061ac3939294dc0815180d54679811fb5050fad"
+    } ],
+    "fileName" : "2061ac3939294dc0815180d54679811fb5050fad.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Topics",
+    "collectionID" : "426011fb244a49afa4bbd095554798ae646f24b9",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T14:17:06.360-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/426011fb244a49afa4bbd095554798ae646f24b9"
+    } ],
+    "fileName" : "426011fb244a49afa4bbd095554798ae646f24b9.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Youth",
+    "collectionID" : "7ca0512a328f4de0b15c7b2284587b21b51ee045",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2022-10-31T14:15:48.085-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/7ca0512a328f4de0b15c7b2284587b21b51ee045"
+    } ],
+    "fileName" : "7ca0512a328f4de0b15c7b2284587b21b51ee045.json"
+  }, {
+    "path" : "Mobile Media Library/Samoan - Video/Holidays",
+    "collectionID" : "ea4393a1922448159e57fd5a58383abc",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-02-22T11:59:40.450-07:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/ea4393a1922448159e57fd5a58383abc"
+    } ],
+    "fileName" : "ea4393a1922448159e57fd5a58383abc.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "433add6bfc4642d1ac0809853fc8e2cd.json",
+  "name" : "Samoan - Video",
+  "publicTitle" : "Vitio",
+  "description" : "O le tuufaatasiga sili ona tele o vitio na fatuina e Le Ekalesia a Iesu Keriso o le Au Paia o Aso e Gata Ai, e aofia ai vitio mo lesona, autalavou, tamaiti, musumusuga, aoaoga faamasani, ma isi."
+}

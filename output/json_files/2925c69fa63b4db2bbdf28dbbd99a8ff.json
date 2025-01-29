@@ -1,0 +1,72 @@
+{
+  "parentCollectionID" : "22e3232e384c8650311b2940336759a89b8d6f8b",
+  "parentCollectionPath" : "Mobile Media Library",
+  "path" : "Mobile Media Library/Hungarian - Featured",
+  "collectionID" : "2925c69fa63b4db2bbdf28dbbd99a8ff",
+  "language" : "hun",
+  "type" : "DEFAULT",
+  "lastUpdatedDate" : "2024-03-15T11:27:36.205-06:00",
+  "links" : [ {
+    "rel" : "details",
+    "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/2925c69fa63b4db2bbdf28dbbd99a8ff"
+  } ],
+  "coverImages" : [ ],
+  "related" : [ ],
+  "metadata" : [ {
+    "key" : "orderIndex",
+    "value" : "82"
+  }, {
+    "key" : "collectionUri",
+    "value" : "featured",
+    "language" : "hun"
+  }, {
+    "key" : "publicTitle",
+    "value" : "Kiemelt",
+    "language" : "hun"
+  } ],
+  "children" : [ {
+    "path" : "Mobile Media Library/Hungarian - Featured/Recent Inspirational Messages",
+    "collectionID" : "76aa2b45df0b4341acc3168fd6560873",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-20T14:32:38.559-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/76aa2b45df0b4341acc3168fd6560873"
+    } ],
+    "fileName" : "76aa2b45df0b4341acc3168fd6560873.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian - Featured/Just Added",
+    "collectionID" : "f16a4f55a6e1411d8546f4f81db02373",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-06-24T17:28:30.587-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/f16a4f55a6e1411d8546f4f81db02373"
+    } ],
+    "fileName" : "f16a4f55a6e1411d8546f4f81db02373.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian - Featured/General Conference Feature",
+    "collectionID" : "c654086d564c4bfc8e0eed2683a21d8d",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-12T18:32:02.700-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/c654086d564c4bfc8e0eed2683a21d8d"
+    } ],
+    "fileName" : "c654086d564c4bfc8e0eed2683a21d8d.json"
+  }, {
+    "path" : "Mobile Media Library/Hungarian - Featured/Worldwide Day of Testimony",
+    "collectionID" : "91c9db054367495f8c5618b8a3df0ad4",
+    "type" : "DEFAULT",
+    "lastUpdatedDate" : "2023-10-17T14:46:23.498-06:00",
+    "links" : [ {
+      "rel" : "details",
+      "href" : "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/91c9db054367495f8c5618b8a3df0ad4"
+    } ],
+    "fileName" : "91c9db054367495f8c5618b8a3df0ad4.json"
+  } ],
+  "assets" : [ ],
+  "fileName" : "2925c69fa63b4db2bbdf28dbbd99a8ff.json",
+  "name" : "Hungarian - Featured",
+  "publicTitle" : "Kiemelt"
+}
