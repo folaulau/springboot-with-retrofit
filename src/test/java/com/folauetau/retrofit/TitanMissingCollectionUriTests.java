@@ -25,16 +25,16 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
 @Slf4j
-public class TitanApiTests {
+public class TitanMissingCollectionUriTests {
 
     ObjectMapper objectMapper = getObjectMapper();
     TitanRestApi titanRestApi = new TitanRestApi();
 
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
     Map<String, String> englishCollectionIds = new ConcurrentHashMap<>();
-
     Map<String, String> englishPathToCollectionUris = new ConcurrentHashMap<>();
     Map<String, String> langToLanguage = new ConcurrentHashMap<>();
+
     private String fileStoragePath = "json_files";
 
     private static volatile int count = 0;
@@ -48,14 +48,16 @@ public class TitanApiTests {
      *
      * Images - span - 4f8489a86d15b8824bef8775080622b95abaa78a
      */
-    private List<String> rootCollectionsToImport = List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f");
+    private List<String> rootCollectionsToImport = null;
 
-    private void addEnglishCollectionUri(String collectionUri, String collectionId, String path) {
+    private void addCollectionUri(String collectionUri, String collectionId, String path) {
         if (collectionUri == null || collectionUri.trim().isEmpty()) {
+//            log.info("Collection URI is null or empty: " + collectionUri);
             return;
         }
         collectionUri = collectionUri.trim().toLowerCase();
         if (englishCollectionIds.containsKey(collectionUri)) {
+//            log.info("Collection URI already exists: " + collectionUri);
         }
         englishCollectionIds.put(collectionUri, collectionId.trim());
         englishPathToCollectionUris.put(path.trim().toLowerCase(), collectionUri);
@@ -63,16 +65,42 @@ public class TitanApiTests {
 
     private String getEnglishCollectionId(String collectionUri) {
         if (collectionUri == null || collectionUri.trim().isEmpty()) {
-//            log.warn("Collection URI is null or empty: " + collectionUri);
+            //            log.warn("Collection URI is null or empty: " + collectionUri);
             return null;
         }
-        return englishCollectionIds.get(collectionUri.toLowerCase());
+        String englishCollectionId = englishCollectionIds.get(collectionUri.toLowerCase());
+        if (englishCollectionId == null || englishCollectionId.trim().isEmpty()) {
+            //            System.out.println("No English collection ID found for collection URI: " + collectionUri);
+        } else {
+            //            log.info("English collection ID found for collection URI: " + collectionUri + " - " + englishCollectionId);
+        }
+        return englishCollectionId;
     }
+
+    /**
+     * //publicDescription String publicDescription = getMetadataValueByKey(titanHit, "publicDescription", true); if
+     * (StringUtils.isBlank(publicDescription)) { titanAssetImportable.setDescription(publicTitle); } else {
+     * titanAssetImportable.setDescription(publicDescription); }
+     *
+     *
+     * protected static String getMetadataValueByKey(TitanHit titanHit, String key, boolean includeLanguageCheck) {
+     * return titanHit.getMetadata().stream() .filter(m -> m.getKey().equals(key)) .filter(m -> !includeLanguageCheck ||
+     * metadataMatchesLanguage(titanHit, m)) .map(TitanMetadata::getValue).findFirst().orElse(null); }
+     *
+     *
+     * //publicTitle, fallback to not include the language check if the public title is null String publicTitle =
+     * ObjectUtils.firstNonBlank( getMetadataValueByKey(titanHit, PUBLIC_TITLE, true), getMetadataValueByKey(titanHit,
+     * PUBLIC_TITLE, false));
+     *
+     * titanAssetImportable.setTitle(publicTitle);
+     *
+     * @throws JsonProcessingException
+     */
 
     String rootCollectionId = "22e3232e384c8650311b2940336759a89b8d6f8b";
 
     @Test
-    void downloadTitanCollections() throws JsonProcessingException {
+    void getCollectionsWithMissingUri() throws JsonProcessingException {
 
         File directory = new File(fileStoragePath);
 
@@ -125,17 +153,13 @@ public class TitanApiTests {
             collectionMap.put(collectionDetails.getCollectionID(), 1);
         }
 
-        boolean rootCollection = rootCollectionId.equals(collectionId);
-
         if (collectionDetails.isEnglish()) {
             String collectionUri = collectionDetails.getCollectionUri();
             if (collectionUri == null || collectionUri.trim().isEmpty()) {
-//                log.warn(
-//                    "Collection URI is null for eng collection ID: {}, path: {}",
-//                    collectionDetails.getCollectionID(),
-//                    collectionDetails.getPath());
+                System.out.println(collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
+                        + collectionDetails.getPath() + ", " + collectionDetails.getLink());
             } else {
-                addEnglishCollectionUri(collectionUri, collectionDetails.getCollectionID(), collectionDetails.getPath());
+                addCollectionUri(collectionUri, collectionDetails.getCollectionID(), collectionDetails.getPath());
             }
         } else {
             String englishCollectionId = getEnglishCollectionId(collectionDetails.getCollectionUri());
@@ -148,19 +172,21 @@ public class TitanApiTests {
                 //                    + ", parent: " + collectionDetails.getParentCollectionID());
                 //                System.out.println("No English collection ID found for collection URI: " + toJson(collectionDetails));
 
+
                 String path = collectionDetails.getPath().toLowerCase();
-                String lang = collectionDetails.getLanguage();
                 String collectionUri = englishPathToCollectionUris.get(path);
 
-                if (collectionUri == null && (lang!=null && !lang.trim().isEmpty() && langToLanguage.get(lang.toLowerCase())!=null)){
+                if (collectionUri == null) {
+                    String lang = collectionDetails.getLanguage();
+                    if(lang!=null && !lang.trim().isEmpty()){
                         String language = langToLanguage.get(lang.toLowerCase());
                         collectionUri = englishPathToCollectionUris.get(path.replaceAll(language, "english"));
+                    }
                 }
 
                 if (collectionUri != null) {
                     collectionDetails.setSourceCollectionId(englishCollectionId);
                     collectionDetails.setHasEnglishRoot(true);
-                    collectionDetails.updateCollectionUri(collectionUri, lang);
                 }else{
                     collectionDetails.setHasEnglishRoot(false);
                     System.out.println(
@@ -172,6 +198,8 @@ public class TitanApiTests {
 
             }
         }
+
+        boolean rootCollection = rootCollectionId.equals(collectionId);
 
         if (parent != null) {
             collectionDetails.setParentCollectionID(parent.getCollectionID());
@@ -189,19 +217,39 @@ public class TitanApiTests {
                 child.setFileName(childFileName);
 
                 // populate root children language
-                if(rootCollection){
+                if (rootCollection) {
                     titanApiResponse = titanRestApi.getCollection(child.getCollectionID());
                     if (titanApiResponse != null && titanApiResponse.getResult() != null) {
                         CollectionDetails childCollectionDetails = titanApiResponse.getResult();
                         child.setRootChildLanguage(childCollectionDetails.getLanguage());
+
+                        String path = childCollectionDetails.getPath().toLowerCase();
+                        String lang = childCollectionDetails.getLanguage();
+                        String language = null;
+
+                        try {
+                            language = (path.split(" ")[0]).toLowerCase();
+                        } catch (Exception e) {
+                            System.out.println("Error: " + path);
+                        }
+
+                        if(language != null) {
+
+                            // remove any trailing : as in French: GS Banner...
+                            if(language.contains(":")) {
+                                language = language.split(":")[0];
+                            }
+
+                            langToLanguage.put(lang.toLowerCase(), language.toLowerCase());
+                        }
                     }
                 }
             }
         }
 
-//        if(rootCollection){
-//            log.info("Root collection {}", toJson(collectionDetails));
-//        }
+        //        if(rootCollection){
+        //            log.info("Root collection {}", toJson(collectionDetails));
+        //        }
 
         List<AssetWrapper> assetWrappers = collectionDetails.getAssets();
 
@@ -226,9 +274,9 @@ public class TitanApiTests {
             e.printStackTrace();
         }
 
-//        if (count >= 50) {
-//            return null;
-//        }
+        //        if (count >= 50) {
+        //            return null;
+        //        }
 
         count++;
 
@@ -252,15 +300,15 @@ public class TitanApiTests {
             CollectionDetails parentCollection = collectionDetails;
             for (int i = 0; i < size; i++) {
                 Child child = children.get(i);
-                if(rootCollection){
-                    if(rootCollectionsToImport!=null && rootCollectionsToImport.size()>0){
-                        if(rootCollectionsToImport.contains(child.getCollectionID())){
+                if (rootCollection) {
+                    if (rootCollectionsToImport != null && rootCollectionsToImport.size() > 0) {
+                        if (rootCollectionsToImport.contains(child.getCollectionID())) {
                             getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
                         }
-                    }else{
+                    } else {
                         getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
                     }
-                }else{
+                } else {
                     getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
                 }
 

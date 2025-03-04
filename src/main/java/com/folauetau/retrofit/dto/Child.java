@@ -10,6 +10,7 @@ public class Child  implements Serializable {
 
     private static final long serialVersionUID = 1L;
     private String path;
+    private String rootChildLanguage;
     private String collectionID;
     private String type;
     private String lastUpdatedDate;

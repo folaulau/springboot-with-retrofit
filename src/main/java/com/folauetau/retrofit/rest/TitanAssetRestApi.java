@@ -1,9 +1,12 @@
 package com.folauetau.retrofit.rest;
 
 import java.io.IOException;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import com.folauetau.retrofit.dto.TitanApiResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetResponse;
+import com.folauetau.retrofit.service.TitanAssetService;
 import com.folauetau.retrofit.service.TitanService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -11,13 +14,13 @@ import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class TitanRestApi {
+public class TitanAssetRestApi {
 
-    private String domain = "https://titanapi.churchofjesuschrist.org/assetsearch/api/v2/collection/details/collectionID/";
+    private String domain = "https://contentapi.churchofjesuschrist.org/api/v2/asset/details/id/";
 
     private Retrofit retrofit = null;
 
-    public TitanRestApi() {
+    public TitanAssetRestApi() {
         // Create a custom OkHttpClient with a custom read timeout
         OkHttpClient customClient = new OkHttpClient.Builder()
             .readTimeout(30, TimeUnit.SECONDS) // Custom read timeout
@@ -36,12 +39,12 @@ public class TitanRestApi {
 
     }
 
-    public TitanApiResponse getCollection(String collectionID) {
+    public TitanAssetResponse getTitanAsset(String titanId) {
 //        System.out.println("url: " + retrofit.baseUrl().toString()+collectionID+"\n");
-        TitanService titanService = retrofit.create(TitanService.class);
-        TitanApiResponse response = null;
+        TitanAssetService titanService = retrofit.create(TitanAssetService.class);
+        TitanAssetResponse response = null;
         try {
-            response = titanService.getCollection(collectionID).execute().body();
+            response = titanService.getTitanAsset(titanId).execute().body();
         } catch (IOException e) {
             System.out.println("API call error: " + e.getMessage());
         }

@@ -33,6 +33,7 @@ public class CollectionDetails implements Serializable {
     private List<Child> children;
     private List<AssetWrapper> assets;
     private String fileName;
+    private boolean hasEnglishRoot;
 
     public String getPublicTitle() {
         return metadata.stream()
@@ -68,5 +69,17 @@ public class CollectionDetails implements Serializable {
 
     public boolean isEnglish() {
         return "eng".equalsIgnoreCase(language);
+    }
+
+    public String getLink(){
+        return links.stream()
+            .filter(l -> l!=null && l.getHref() != null)
+            .map(Link::getHref)
+            .findFirst()
+            .orElse(null);
+    }
+
+    public void updateCollectionUri(String collectionUri, String lang) {
+        metadata.add(new Metadata("collectionUri", collectionUri, lang));
     }
 }
