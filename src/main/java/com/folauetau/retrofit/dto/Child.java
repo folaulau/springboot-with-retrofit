@@ -18,4 +18,11 @@ public class Child  implements Serializable {
 
     // json file name
     private String fileName;
+
+    private Integer orderIndex;
+
+    public int getOrderIndex() {
+        // return -1 if orderIndex is not a number
+        return (orderIndex==null || orderIndex<0) ? -1 : orderIndex;
+    }
 }

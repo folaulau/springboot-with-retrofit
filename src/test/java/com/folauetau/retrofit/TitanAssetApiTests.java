@@ -74,7 +74,6 @@ public class TitanAssetApiTests {
     @Test
     void findTitanAssetsWithoutTitleOrDescription() throws JsonProcessingException {
 
-
         String filePath = "json_asset_ids.txt"; // Change this to your file path
         Set<String> missingDataTitanIds = new HashSet<>();
         Set<String> notFoundTitanIds = new HashSet<>();

@@ -15,4 +15,8 @@ public class AssetWrapper implements Serializable {
     private Long addedDate;
     private List<Metadata> metadata;
 
+    public int getIndex() {
+        return (index==null || index<0) ? -1 : index;
+    }
+
 }

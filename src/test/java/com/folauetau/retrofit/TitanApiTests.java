@@ -3,6 +3,7 @@ package com.folauetau.retrofit;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -117,7 +118,10 @@ public class TitanApiTests {
 
         CollectionDetails collectionDetails = titanApiResponse.getResult();
 
-        //        System.out.println("collectionDetails path: " + collectionDetails.getPath());
+        return getCollectionDetails(parent, collectionDetails, filename);
+    }
+
+    CollectionDetails getCollectionDetails(CollectionDetails parent, CollectionDetails collectionDetails, String filename) {
 
         if (collectionMap.containsKey(collectionDetails.getCollectionID())) {
             System.out.println("Collection already processed: " + collectionDetails.getCollectionID());
@@ -125,7 +129,7 @@ public class TitanApiTests {
             collectionMap.put(collectionDetails.getCollectionID(), 1);
         }
 
-        boolean rootCollection = rootCollectionId.equals(collectionId);
+        boolean rootCollection = rootCollectionId.equals(collectionDetails.getCollectionID());
 
         if (collectionDetails.isEnglish()) {
             String collectionUri = collectionDetails.getCollectionUri();
@@ -180,21 +184,29 @@ public class TitanApiTests {
 
         boolean hasChildren = collectionDetails.getChildren() != null && collectionDetails.getChildren().size() > 0;
 
+        List<CollectionDetails> childrenCollections = new ArrayList<>();
+
         if (hasChildren) {
             collectionDetails.setCollectionType(CollectionDetails.COLLECTIONS_COLLECTION_TYPE);
             int size = collectionDetails.getChildren().size();
             for (int i = 0; i < size; i++) {
                 Child child = collectionDetails.getChildren().get(i);
-                String childFileName = child.getCollectionID().toLowerCase() + ".json";
-                child.setFileName(childFileName);
 
-                // populate root children language
-                if(rootCollection){
-                    titanApiResponse = titanRestApi.getCollection(child.getCollectionID());
-                    if (titanApiResponse != null && titanApiResponse.getResult() != null) {
-                        CollectionDetails childCollectionDetails = titanApiResponse.getResult();
+                TitanApiResponse childCollectionTitanApiResponse = titanRestApi.getCollection(child.getCollectionID());
+
+                if (childCollectionTitanApiResponse != null && childCollectionTitanApiResponse.getResult() != null) {
+                    CollectionDetails childCollectionDetails = childCollectionTitanApiResponse.getResult();
+
+                    // populate root children language
+                    if(rootCollection){
                         child.setRootChildLanguage(childCollectionDetails.getLanguage());
                     }
+
+                    child.setOrderIndex(childCollectionDetails.getOrderIndex());
+
+                    childrenCollections.add(childCollectionDetails);
+
+                    child.setFileName(childCollectionDetails.getFileName());
                 }
             }
         }
@@ -217,6 +229,12 @@ public class TitanApiTests {
 
         collectionDetails.setFileName(filename);
 
+        // sort children
+        collectionDetails.sortChildren();
+
+        // sort assets
+        collectionDetails.sortAssets();
+
         try {
             // Write the object to a JSON file
             File jsonFile = new File(fileStoragePath + "/" + filename);
@@ -232,14 +250,14 @@ public class TitanApiTests {
 
         count++;
 
-        if (hasChildren) {
-            List<Child> children = collectionDetails.getChildren();
+        if (hasChildren && childrenCollections.size() > 0) {
+            List<CollectionDetails> children = childrenCollections;
             int size = children.size();
 
             // process english collection first so that translation can work
             children.sort((c1, c2) -> {
-                boolean eng1 = c1.getPath().toLowerCase().contains("english");
-                boolean eng2 = c2.getPath().toLowerCase().contains("english");
+                boolean eng1 = c1.getLanguage().toLowerCase().contains("eng");
+                boolean eng2 = c2.getLanguage().toLowerCase().contains("eng");
 
                 if (eng1 && !eng2) {
                     return -1; // eng1 comes first
@@ -251,17 +269,17 @@ public class TitanApiTests {
             });
             CollectionDetails parentCollection = collectionDetails;
             for (int i = 0; i < size; i++) {
-                Child child = children.get(i);
+                CollectionDetails child = children.get(i);
                 if(rootCollection){
                     if(rootCollectionsToImport!=null && rootCollectionsToImport.size()>0){
                         if(rootCollectionsToImport.contains(child.getCollectionID())){
-                            getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
+                            getCollectionDetails(parentCollection, child, child.getFileName());
                         }
                     }else{
-                        getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
+                        getCollectionDetails(parentCollection, child, child.getFileName());
                     }
                 }else{
-                    getCollectionDetails(parentCollection, child.getCollectionID(), child.getFileName());
+                    getCollectionDetails(parentCollection, child, child.getFileName());
                 }
 
             }
