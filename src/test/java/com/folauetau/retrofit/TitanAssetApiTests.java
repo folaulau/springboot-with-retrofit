@@ -28,11 +28,11 @@ import com.folauetau.retrofit.dto.AssetWrapper;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
 import com.folauetau.retrofit.dto.CoverImage;
-import com.folauetau.retrofit.dto.TitanApiResponse;
+import com.folauetau.retrofit.dto.TitanCollectionApiResponse;
 import com.folauetau.retrofit.dto.titanasset.TitanAsset;
-import com.folauetau.retrofit.dto.titanasset.TitanAssetResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetApiResponse;
 import com.folauetau.retrofit.rest.TitanAssetRestApi;
-import com.folauetau.retrofit.rest.TitanRestApi;
+import com.folauetau.retrofit.rest.TitanCollectionRestApi;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
@@ -40,7 +40,7 @@ import org.junit.jupiter.api.Test;
 public class TitanAssetApiTests {
 
     ObjectMapper objectMapper = getObjectMapper();
-    TitanRestApi titanRestApi = new TitanRestApi();
+    TitanCollectionRestApi titanRestApi = new TitanCollectionRestApi();
     TitanAssetRestApi titanAssetRestApi = new TitanAssetRestApi();
 
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
@@ -48,78 +48,6 @@ public class TitanAssetApiTests {
     private String fileStoragePath = "json_asset_ids.txt";
 
     private static volatile int count = 0;
-
-    @Test
-    void testString(){
-        String seoPath = "tst-file-eng";
-        String language = "eng";
-
-        String seoPathSlug = seoPath.substring(seoPath.length()-language.length(), seoPath.length());
-
-        log.info("seoPathSlug: {}", seoPathSlug);
-        if(seoPathSlug.equals(language)) {
-            seoPathSlug = seoPath.substring((seoPath.length()-language.length())-1, seoPath.length());
-            if (seoPathSlug.equals("-" + language)) {
-                seoPath = seoPath.substring(0, seoPath.length()-language.length()-1);
-            } else {
-                seoPath = seoPath.substring(0, seoPath.length()-language.length());
-            }
-
-
-        }
-
-        log.info("seoPath: {}", seoPath);
-    }
-
-    @Test
-    void findTitanAssetsWithoutTitleOrDescription() throws JsonProcessingException {
-
-        String filePath = "json_asset_ids.txt"; // Change this to your file path
-        Set<String> missingDataTitanIds = new HashSet<>();
-        Set<String> notFoundTitanIds = new HashSet<>();
-        log.info("Incomplete assets...");
-        try {
-            List<String> lines = Files.readAllLines(Paths.get(filePath));
-            for (String line : lines) {
-               String titanId = line.trim();
-
-                TitanAssetResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(titanId);
-                if(titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
-                    notFoundTitanIds.add(titanId);
-                    continue;
-                }
-                TitanAsset titanAsset = titanAssetResponse.getResult();
-                if(titanAsset == null) {
-                    notFoundTitanIds.add(titanId);
-                    continue;
-                }
-//                log.info("title: {}", titanAsset.getTitle());
-//                log.info("description: {}",titanAsset.getDescription());
-
-                String title = titanAsset.getTitle();
-                String description = titanAsset.getDescription();
-
-                if(title == null || title.trim().isEmpty() || description == null || description.trim().isEmpty()) {
-                    missingDataTitanIds.add(titanAsset.getAssetID());
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        log.info("Done");
-
-        log.info("missingDataTitanIds Titan IDs count: {}", missingDataTitanIds.size());
-        for (String titanId : missingDataTitanIds) {
-            System.out.println(titanId);
-        }
-
-        log.info("notFoundTitanIds Titan IDs count: {}", notFoundTitanIds.size());
-        for (String titanId : notFoundTitanIds) {
-            System.out.println(titanId);
-        }
-
-    }
 
     @Test
     void downloadTitanAssetIds() throws JsonProcessingException {
@@ -151,6 +79,57 @@ public class TitanAssetApiTests {
         long minutes = duration / 60000;
         System.out.println("Duration: " + minutes + " minutes");
 
+        findTitanAssetsWithoutTitleOrDescription();
+
+    }
+
+    void findTitanAssetsWithoutTitleOrDescription() throws JsonProcessingException {
+
+        String filePath = fileStoragePath;
+        Set<String> missingDataTitanIds = new HashSet<>();
+        Set<String> notFoundTitanIds = new HashSet<>();
+        log.info("Incomplete assets...");
+        try {
+            List<String> lines = Files.readAllLines(Paths.get(filePath));
+            for (String line : lines) {
+                String titanId = line.trim();
+
+                TitanAssetApiResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(titanId);
+                if(titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
+                    notFoundTitanIds.add(titanId);
+                    continue;
+                }
+                TitanAsset titanAsset = titanAssetResponse.getResult();
+                if(titanAsset == null) {
+                    notFoundTitanIds.add(titanId);
+                    continue;
+                }
+                //                log.info("title: {}", titanAsset.getTitle());
+                //                log.info("description: {}",titanAsset.getDescription());
+
+                String title = titanAsset.getTitle();
+                String description = titanAsset.getDescription();
+
+                if(title == null || title.trim().isEmpty() || description == null || description.trim().isEmpty()) {
+                    missingDataTitanIds.add(titanAsset.getAssetID());
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        log.info("Done");
+
+        log.info("missingDataTitanIds Titan IDs count: {}", missingDataTitanIds.size());
+        for (String titanId : missingDataTitanIds) {
+            System.out.println(titanId);
+        }
+
+        log.info("notFoundTitanIds Titan IDs count: {}", notFoundTitanIds.size());
+        for (String titanId : notFoundTitanIds) {
+            System.out.println(titanId);
+        }
+
     }
 
     CollectionDetails getCollectionDetails(String collectionId, BufferedWriter writer) {
@@ -160,7 +139,7 @@ public class TitanAssetApiTests {
             return null;
         }
 
-        TitanApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
+        TitanCollectionApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
 //        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
 
         if(titanApiResponse == null || titanApiResponse.getResult() == null) {

@@ -4,10 +4,8 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import com.folauetau.retrofit.dto.TitanApiResponse;
-import com.folauetau.retrofit.dto.titanasset.TitanAssetResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetApiResponse;
 import com.folauetau.retrofit.service.TitanAssetService;
-import com.folauetau.retrofit.service.TitanService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import okhttp3.OkHttpClient;
@@ -33,16 +31,16 @@ public class TitanAssetRestApi {
 
         retrofit = new Retrofit.Builder()
             .client(customClient)
-            .addConverterFactory(GsonConverterFactory.create(gson))
+//            .addConverterFactory(GsonConverterFactory.create(gson))
             .baseUrl(domain)
             .build();
 
     }
 
-    public TitanAssetResponse getTitanAsset(String titanId) {
+    public TitanAssetApiResponse getTitanAsset(String titanId) {
 //        System.out.println("url: " + retrofit.baseUrl().toString()+collectionID+"\n");
         TitanAssetService titanService = retrofit.create(TitanAssetService.class);
-        TitanAssetResponse response = null;
+        TitanAssetApiResponse response = null;
         try {
             response = titanService.getTitanAsset(titanId).execute().body();
         } catch (IOException e) {
@@ -50,7 +48,4 @@ public class TitanAssetRestApi {
         }
         return response;
     }
-
-
-
 }

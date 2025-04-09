@@ -5,7 +5,7 @@ import java.io.Serializable;
 import lombok.Data;
 
 @Data
-public class TitanApiResponse  implements Serializable {
+public class TitanCollectionApiResponse  implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

@@ -1,9 +1,7 @@
 package com.folauetau.retrofit.service;
 
 import java.util.Map;
-
-import com.folauetau.retrofit.dto.TitanApiResponse;
-import com.folauetau.retrofit.dto.titanasset.TitanAssetResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetApiResponse;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Headers;
@@ -16,5 +14,5 @@ public interface TitanAssetService {
         "User-Agent: Retrofit-Sample-App"
     })
     @GET("{titanId}")
-    Call<TitanAssetResponse> getTitanAsset(@Path("titanId") String titanId);
+    Call<TitanAssetApiResponse> getTitanAsset(@Path("titanId") String titanId);
 }

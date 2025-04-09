@@ -10,7 +10,7 @@ import com.folauetau.retrofit.dto.Metadata;
 import lombok.Data;
 
 @Data
-public class TitanAssetResponse implements Serializable {
+public class TitanAssetApiResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;
 

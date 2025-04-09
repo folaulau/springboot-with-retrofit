@@ -49,7 +49,7 @@ public class TitanApiTests {
      *
      * Images - span - 4f8489a86d15b8824bef8775080622b95abaa78a
      */
-    private List<String> rootCollectionsToImport = List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f");
+    private List<String> rootCollectionsToImport = null;//List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f");
 
     private void addEnglishCollectionUri(String collectionUri, String collectionId, String path) {
         if (collectionUri == null || collectionUri.trim().isEmpty()) {

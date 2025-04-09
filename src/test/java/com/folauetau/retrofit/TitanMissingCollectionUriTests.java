@@ -19,8 +19,8 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.folauetau.retrofit.dto.AssetWrapper;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
-import com.folauetau.retrofit.dto.TitanApiResponse;
-import com.folauetau.retrofit.rest.TitanRestApi;
+import com.folauetau.retrofit.dto.TitanCollectionApiResponse;
+import com.folauetau.retrofit.rest.TitanCollectionRestApi;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
@@ -28,7 +28,7 @@ import org.junit.jupiter.api.Test;
 public class TitanMissingCollectionUriTests {
 
     ObjectMapper objectMapper = getObjectMapper();
-    TitanRestApi titanRestApi = new TitanRestApi();
+    TitanCollectionRestApi titanRestApi = new TitanCollectionRestApi();
 
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
     Map<String, String> englishCollectionIds = new ConcurrentHashMap<>();
@@ -135,7 +135,7 @@ public class TitanMissingCollectionUriTests {
             return null;
         }
 
-        TitanApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
+        TitanCollectionApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
         //        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
 
         if (titanApiResponse == null || titanApiResponse.getResult() == null) {
