@@ -29,11 +29,11 @@ import com.folauetau.retrofit.dto.AssetWrapper;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
 import com.folauetau.retrofit.dto.CoverImage;
-import com.folauetau.retrofit.dto.TitanApiResponse;
+import com.folauetau.retrofit.dto.TitanCollectionApiResponse;
 import com.folauetau.retrofit.dto.titanasset.TitanAsset;
-import com.folauetau.retrofit.dto.titanasset.TitanAssetResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetApiResponse;
 import com.folauetau.retrofit.rest.TitanAssetRestApi;
-import com.folauetau.retrofit.rest.TitanRestApi;
+import com.folauetau.retrofit.rest.TitanCollectionRestApi;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
@@ -41,7 +41,7 @@ import org.junit.jupiter.api.Test;
 public class TitanMissingCollectionCoverImageTests {
 
     ObjectMapper objectMapper = getObjectMapper();
-    TitanRestApi titanRestApi = new TitanRestApi();
+    TitanCollectionRestApi titanRestApi = new TitanCollectionRestApi();
     TitanAssetRestApi titanAssetRestApi = new TitanAssetRestApi();
 
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
@@ -91,7 +91,7 @@ public class TitanMissingCollectionCoverImageTests {
                     continue;
                 }
 
-                TitanAssetResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(coverImageId);
+                TitanAssetApiResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(coverImageId);
                 if (titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
                     notFoundTitanIds.put(collectionId, coverImageId);
                     continue;
@@ -167,7 +167,7 @@ public class TitanMissingCollectionCoverImageTests {
             return null;
         }
 
-        TitanApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
+        TitanCollectionApiResponse titanApiResponse = titanRestApi.getCollection(collectionId);
         //        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
 
         if (titanApiResponse == null || titanApiResponse.getResult() == null) {

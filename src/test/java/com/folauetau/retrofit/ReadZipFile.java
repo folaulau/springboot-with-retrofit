@@ -37,8 +37,6 @@ import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
-import com.folauetau.retrofit.dto.TitanApiResponse;
-import com.folauetau.retrofit.rest.TitanRestApi;
 import org.junit.jupiter.api.Test;
 
 import static java.util.Collections.*;
