@@ -17,6 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.folauetau.retrofit.dto.Asset;
 import com.folauetau.retrofit.dto.AssetWrapper;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
@@ -34,6 +35,10 @@ public class TitanApiTests {
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
     Map<String, String> englishCollectionIds = new ConcurrentHashMap<>();
 
+    Map<String, Integer> pathCollectionPaths = new ConcurrentHashMap<>();
+
+    Map<String, Integer> pathAssetPaths = new ConcurrentHashMap<>();
+
     Map<String, String> englishPathToCollectionUris = new ConcurrentHashMap<>();
     Map<String, String> langToLanguage = new ConcurrentHashMap<>();
     private String fileStoragePath = "json_files";
@@ -49,7 +54,7 @@ public class TitanApiTests {
      *
      * Images - span - 4f8489a86d15b8824bef8775080622b95abaa78a
      */
-    private List<String> rootCollectionsToImport = null;//List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f");
+    private List<String> rootCollectionsToImport = null;//List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f","9469dcd2e95b0f73fd237301b21fecbd372d2e60","4f8489a86d15b8824bef8775080622b95abaa78a");
 
     private void addEnglishCollectionUri(String collectionUri, String collectionId, String path) {
         if (collectionUri == null || collectionUri.trim().isEmpty()) {
@@ -104,7 +109,7 @@ public class TitanApiTests {
     CollectionDetails getCollectionDetails(CollectionDetails parent, String collectionId, String filename) {
 
         if (collectionId == null || collectionId.trim().isEmpty()) {
-            log.info("collectionId is null: " + collectionId);
+            System.out.println("collectionId is null: " + collectionId);
             return null;
         }
 
@@ -112,7 +117,7 @@ public class TitanApiTests {
         //        System.out.println("titanApiResponse: " + toJson(titanApiResponse));
 
         if (titanApiResponse == null || titanApiResponse.getResult() == null) {
-            log.warn("No collection found for collectionId: " + collectionId);
+            System.out.println("No collection found for collectionId: " + collectionId);
             return null;
         }
 
@@ -129,7 +134,38 @@ public class TitanApiTests {
             collectionMap.put(collectionDetails.getCollectionID(), 1);
         }
 
+        String path = collectionDetails.getPath();
+
         boolean rootCollection = rootCollectionId.equals(collectionDetails.getCollectionID());
+
+        if(!rootCollection && collectionDetails.isPublicTitleEmpty()){
+            System.out.println("Public title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
+            return null;
+        }
+
+        if(!rootCollection && path==null){
+            System.out.println("Empty path public title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
+            return null;
+        }
+
+        if(!rootCollection && path.toLowerCase().contains("unpublished")){
+            System.out.println("Unpublished public title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
+            return null;
+        }
+
+        String internalName = collectionDetails.getInternalName();
+
+        String pathLanguage = internalName.trim().toLowerCase()+"-"+collectionDetails.getLanguage().trim().toLowerCase();
+
+        Integer pathCount = pathCollectionPaths.get(pathLanguage);
+
+        if (pathCount == null) {
+            pathCollectionPaths.put(pathLanguage, 1);
+        }else{
+            pathCollectionPaths.put(pathLanguage, pathCount + 1);
+            System.out.println("Dup collection, title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
+            return null;
+        }
 
         if (collectionDetails.isEnglish()) {
             String collectionUri = collectionDetails.getCollectionUri();
@@ -152,7 +188,7 @@ public class TitanApiTests {
                 //                    + ", parent: " + collectionDetails.getParentCollectionID());
                 //                System.out.println("No English collection ID found for collection URI: " + toJson(collectionDetails));
 
-                String path = collectionDetails.getPath().toLowerCase();
+                path = collectionDetails.getPath().toLowerCase();
                 String lang = collectionDetails.getLanguage();
                 String collectionUri = englishPathToCollectionUris.get(path);
 
@@ -167,9 +203,9 @@ public class TitanApiTests {
                     collectionDetails.updateCollectionUri(collectionUri, lang);
                 }else{
                     collectionDetails.setHasEnglishRoot(false);
-                    System.out.println(
-                        collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
-                            + collectionDetails.getPath() + ", " + collectionDetails.getLink());
+//                    System.out.println(
+//                        collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
+//                            + collectionDetails.getPath() + ", " + collectionDetails.getLink());
                 }
 
                 //                System.out.println("No English collection ID found for collection URI: " + collectionDetails.getCollectionUri());
@@ -222,6 +258,32 @@ public class TitanApiTests {
         if (!hasChildren) {
             if (hasAssets) {
                 collectionDetails.setCollectionType(CollectionDetails.ASSETS_COLLECTION_TYPE);
+                List<AssetWrapper> newAssetWrappers = new ArrayList<>();
+                for (int i = 0; i < assetWrappers.size(); i++) {
+                    AssetWrapper assetWrapper = assetWrappers.get(i);
+                    Asset asset = assetWrapper.getAsset();
+
+                    if(asset == null || asset.getAssetID() == null){
+                        continue;
+                    }
+
+                    String assetPath = asset.getSEOPathWithHash();
+                    String pathWithLanguage = (assetPath + "-" + asset.getLanguage()).trim().toLowerCase();
+
+                    if (pathWithLanguage != null && !pathWithLanguage.trim().isEmpty()) {
+                        Integer assetPathCount = pathAssetPaths.get(pathWithLanguage);
+
+                        if (assetPathCount == null) {
+                            pathAssetPaths.put(pathWithLanguage, 1);
+                            newAssetWrappers.add(assetWrapper);
+                        } else {
+                            pathAssetPaths.put(pathWithLanguage, assetPathCount + 1);
+                            System.out.println("Dup asset, title: " + asset.getPublicTitle() + ", path: " + asset.getSEOPathWithHash() + ", id: " + asset.getAssetID()+ ", collection id: " + collectionDetails.getCollectionID()+", collection path: "+collectionDetails.getPath());
+                        }
+                    }
+                }
+                collectionDetails.setAssets(newAssetWrappers);
+
             } else {
                 collectionDetails.setCollectionType(CollectionDetails.COLLECTIONS_COLLECTION_TYPE);
             }

@@ -31,7 +31,7 @@ public class TitanAssetRestApi {
 
         retrofit = new Retrofit.Builder()
             .client(customClient)
-//            .addConverterFactory(GsonConverterFactory.create(gson))
+            .addConverterFactory(GsonConverterFactory.create(gson))
             .baseUrl(domain)
             .build();
 
@@ -44,7 +44,7 @@ public class TitanAssetRestApi {
         try {
             response = titanService.getTitanAsset(titanId).execute().body();
         } catch (IOException e) {
-            System.out.println("API call error: " + e.getMessage());
+            System.out.println("getTitanAsset API call error: " + e.getMessage());
         }
         return response;
     }

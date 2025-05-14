@@ -50,6 +50,8 @@ public class TitanMissingCollectionCoverImageTests {
 
     private static volatile int count = 0;
 
+    String rootCollectionId = "22e3232e384c8650311b2940336759a89b8d6f8b";
+
     @Test
     void testString() {
         String seoPath = "tst-file-eng";
@@ -71,8 +73,92 @@ public class TitanMissingCollectionCoverImageTests {
         log.info("seoPath: {}", seoPath);
     }
 
+//    @Test
+//    void findTitanAssetsWithoutTitleOrDescription() throws JsonProcessingException {
+//
+//        String filePath = fileStoragePath; // Change this to your file path
+//        Map<String, String> missingDataTitanIds = new HashMap<>();
+//        Map<String, String> notFoundTitanIds = new HashMap<>();
+//        log.info("Incomplete assets...");
+//        try {
+//            List<String> lines = Files.readAllLines(Paths.get(filePath));
+//            for (String line : lines) {
+//                String[] columns = line.trim().split(",");
+//
+//                String collectionId = columns[0];
+//                String coverImageId = columns[1];
+//
+//                if (coverImageId == null || coverImageId.trim().isEmpty() || coverImageId.equalsIgnoreCase("NULL")) {
+//                    notFoundTitanIds.put(collectionId, coverImageId);
+//                    continue;
+//                }
+//
+//                TitanAssetApiResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(coverImageId);
+//                if (titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
+//                    notFoundTitanIds.put(collectionId, coverImageId);
+//                    continue;
+//                }
+//                TitanAsset titanAsset = titanAssetResponse.getResult();
+//                if (titanAsset == null) {
+//                    notFoundTitanIds.put(collectionId, coverImageId);
+//                    continue;
+//                }
+//                //                log.info("title: {}", titanAsset.getTitle());
+//                //                log.info("description: {}",titanAsset.getDescription());
+//
+//                String title = titanAsset.getTitle();
+//                String description = titanAsset.getDescription();
+//
+//                if (title == null || title.trim().isEmpty() || description == null || description.trim().isEmpty()) {
+//                    missingDataTitanIds.put(collectionId, titanAsset.getAssetID());
+//                }
+//            }
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//
+//        log.info("Done");
+//
+//        log.info("missingDataTitanIds Titan IDs count: {}", missingDataTitanIds.size());
+//        for (Map.Entry<String, String> entry : missingDataTitanIds.entrySet()) {
+//            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
+//        }
+//
+//        log.info("notFoundTitanIds Titan IDs count: {}", notFoundTitanIds.size());
+//        for (Map.Entry<String, String> entry : notFoundTitanIds.entrySet()) {
+//            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
+//        }
+//
+//    }
+
     @Test
-    void findTitanAssetsWithoutTitleOrDescription() throws JsonProcessingException {
+    void downloadTitanCollectionCoverImageAssetIds() throws JsonProcessingException {
+
+        File file = new File(fileStoragePath);
+
+        if (file.exists()) {
+            file.delete();
+        }
+
+        System.out.println("downloading...");
+
+        // parent collection
+
+
+        // track how long this takes
+        long startTime = System.currentTimeMillis();
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileStoragePath, true))) {
+            getCollectionDetails(rootCollectionId, writer);
+        } catch (IOException e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
+
+        long endTime = System.currentTimeMillis();
+
+        long duration = (endTime - startTime);
+
+        long minutes = duration / 60000;
+        System.out.println("Duration: " + minutes + " minutes");
 
         String filePath = fileStoragePath; // Change this to your file path
         Map<String, String> missingDataTitanIds = new HashMap<>();
@@ -86,7 +172,7 @@ public class TitanMissingCollectionCoverImageTests {
                 String collectionId = columns[0];
                 String coverImageId = columns[1];
 
-                if(coverImageId == null || coverImageId.trim().isEmpty() || coverImageId.equalsIgnoreCase("NULL")) {
+                if (coverImageId == null || coverImageId.trim().isEmpty() || coverImageId.equalsIgnoreCase("NULL")) {
                     notFoundTitanIds.put(collectionId, coverImageId);
                     continue;
                 }
@@ -117,46 +203,15 @@ public class TitanMissingCollectionCoverImageTests {
 
         log.info("Done");
 
-        log.info("missingDataTitanIds Titan IDs count: {}", missingDataTitanIds.size());
+        log.info("Cover Image with incomplete data count: {}", missingDataTitanIds.size());
         for (Map.Entry<String, String> entry : missingDataTitanIds.entrySet()) {
-            System.out.println("collectionId: "+entry.getKey()+", assetId: "+entry.getValue());
+            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
         }
 
-        log.info("notFoundTitanIds Titan IDs count: {}", notFoundTitanIds.size());
+        log.info("Cover Image Not found count: {}", notFoundTitanIds.size());
         for (Map.Entry<String, String> entry : notFoundTitanIds.entrySet()) {
-            System.out.println("collectionId: "+entry.getKey()+", assetId: "+entry.getValue());
+            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
         }
-
-    }
-
-    @Test
-    void downloadTitanCollectionCoverImageAssetIds() throws JsonProcessingException {
-
-        File file = new File(fileStoragePath);
-
-        if (file.exists()) {
-            file.delete();
-        }
-
-        System.out.println("downloading...");
-
-        // parent collection
-        String collectionId = "22e3232e384c8650311b2940336759a89b8d6f8b";
-
-        // track how long this takes
-        long startTime = System.currentTimeMillis();
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileStoragePath, true))) {
-            getCollectionDetails(collectionId, writer);
-        } catch (IOException e) {
-            System.err.println("An error occurred: " + e.getMessage());
-        }
-
-        long endTime = System.currentTimeMillis();
-
-        long duration = (endTime - startTime);
-
-        long minutes = duration / 60000;
-        System.out.println("Duration: " + minutes + " minutes");
 
     }
 
@@ -176,6 +231,13 @@ public class TitanMissingCollectionCoverImageTests {
         }
 
         CollectionDetails collectionDetails = titanApiResponse.getResult();
+
+        String path = collectionDetails.getPath();
+
+        if(!rootCollectionId.equalsIgnoreCase(collectionId) && (path ==null || path.toLowerCase().contains("unpublished") || collectionDetails.getPublicTitle() == null)){
+            return null;
+        }
+
         List<String> assetIds = new ArrayList<>();
         if (collectionMap.containsKey(collectionDetails.getCollectionID())) {
             System.out.println("Collection already processed: " + collectionDetails.getCollectionID());
@@ -188,7 +250,7 @@ public class TitanMissingCollectionCoverImageTests {
                 coverImageId = optionalCoverImage.get().getAsset().getAssetID();
             }
 
-            processAndWriteToFile(collectionDetails.getCollectionID(), coverImageId, writer);
+            processAndWriteToFile(collectionDetails.getCollectionID(), collectionDetails.getPath(), collectionDetails.getLanguage(), coverImageId, writer);
         }
 
         boolean hasChildren = collectionDetails.getChildren() != null && collectionDetails.getChildren().size() > 0;
@@ -219,16 +281,16 @@ public class TitanMissingCollectionCoverImageTests {
         return collectionDetails;
     }
 
-    private boolean processAndWriteToFile(String collectionId, String coverImageId, BufferedWriter writer) {
+    private boolean processAndWriteToFile(String collectionId, String collectionPath, String collectionLanguage, String coverImageId, BufferedWriter writer) {
         try {
             if (collectionId == null || collectionId.trim().length() == 0) {
                 return false;
             }
 
             if (coverImageId == null || coverImageId.trim().length() == 0) {
-                writer.write(collectionId.trim() + ",NULL");
+                writer.write(collectionId.trim() + ",NULL"+ "," + collectionPath.trim()+ "," + collectionLanguage.trim());
             } else {
-                writer.write(collectionId.trim() + "," + coverImageId.trim());
+                writer.write(collectionId.trim() + "," + coverImageId.trim()+ "," + collectionPath.trim()+ "," + collectionLanguage.trim());
             }
 
             writer.newLine();

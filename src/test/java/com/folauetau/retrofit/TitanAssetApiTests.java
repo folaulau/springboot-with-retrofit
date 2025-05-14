@@ -148,6 +148,13 @@ public class TitanAssetApiTests {
         }
 
         CollectionDetails collectionDetails = titanApiResponse.getResult();
+
+        String path = collectionDetails.getPath();
+
+        if(path==null || path.toLowerCase().contains("unpublished") || collectionDetails.getPublicTitle() == null){
+            return null;
+        }
+
         List<String> assetIds = new ArrayList<>();
         if(collectionMap.containsKey(collectionDetails.getCollectionID())) {
             System.out.println("Collection already processed: " + collectionDetails.getCollectionID());

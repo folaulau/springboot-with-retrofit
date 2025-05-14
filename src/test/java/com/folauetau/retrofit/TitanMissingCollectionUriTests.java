@@ -153,9 +153,11 @@ public class TitanMissingCollectionUriTests {
             collectionMap.put(collectionDetails.getCollectionID(), 1);
         }
 
+        String path = collectionDetails.getPath().toLowerCase();
+
         if (collectionDetails.isEnglish()) {
             String collectionUri = collectionDetails.getCollectionUri();
-            if (collectionUri == null || collectionUri.trim().isEmpty()) {
+            if ((collectionUri == null || collectionUri.trim().isEmpty()) && (path!=null && !path.contains("unpublished") && collectionDetails.getPublicTitle()!= null)) {
                 System.out.println(collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
                         + collectionDetails.getPath() + ", " + collectionDetails.getLink());
             } else {
@@ -173,7 +175,6 @@ public class TitanMissingCollectionUriTests {
                 //                System.out.println("No English collection ID found for collection URI: " + toJson(collectionDetails));
 
 
-                String path = collectionDetails.getPath().toLowerCase();
                 String collectionUri = englishPathToCollectionUris.get(path);
 
                 if (collectionUri == null) {
@@ -189,9 +190,11 @@ public class TitanMissingCollectionUriTests {
                     collectionDetails.setHasEnglishRoot(true);
                 }else{
                     collectionDetails.setHasEnglishRoot(false);
-                    System.out.println(
-                        collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
-                            + collectionDetails.getPath() + ", " + collectionDetails.getLink());
+                    if(path!=null && !path.contains("unpublished") && collectionDetails.getPublicTitle()!= null){
+                        System.out.println(
+                            collectionDetails.getCollectionID() + ", " + collectionDetails.getCollectionUri() + ", "
+                                + collectionDetails.getPath() + ", " + collectionDetails.getLink());
+                    }
                 }
 
                 //                System.out.println("No English collection ID found for collection URI: " + collectionDetails.getCollectionUri());
@@ -223,14 +226,14 @@ public class TitanMissingCollectionUriTests {
                         CollectionDetails childCollectionDetails = titanApiResponse.getResult();
                         child.setRootChildLanguage(childCollectionDetails.getLanguage());
 
-                        String path = childCollectionDetails.getPath().toLowerCase();
+                        String childPath = childCollectionDetails.getPath().toLowerCase();
                         String lang = childCollectionDetails.getLanguage();
                         String language = null;
 
                         try {
-                            language = (path.split(" ")[0]).toLowerCase();
+                            language = (childPath.split(" ")[0]).toLowerCase();
                         } catch (Exception e) {
-                            System.out.println("Error: " + path);
+                            System.out.println("Error: " + childPath);
                         }
 
                         if(language != null) {

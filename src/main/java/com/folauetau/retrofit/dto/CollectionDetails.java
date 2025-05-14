@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
+import com.folauetau.retrofit.DariUtils;
 import lombok.Data;
 import org.jetbrains.annotations.NotNull;
 
@@ -128,5 +129,48 @@ public class CollectionDetails implements Serializable {
             int orderIndex2 = a2.getIndex();
             return Integer.compare(orderIndex1, orderIndex2);
         });
+    }
+
+    public String getLanguage(){
+        if(language == null) {
+            return "";
+        }
+        return language.trim();
+    }
+
+    public String getSlug() {
+        Optional<String> optionalMetadataCollectionUri = metadata.stream()
+            .filter(m -> "collectionUri".equals(m.getKey()))
+            .map(meta -> {
+                String value = meta.getValue();
+                if (value == null || value.trim().isEmpty()) {
+                    return null;
+                }
+                return value;
+            })
+            .findFirst();
+
+        if (optionalMetadataCollectionUri.isPresent()) {
+            return optionalMetadataCollectionUri.get();
+        }
+
+        if (path != null) {
+            String[] parts = path.split("/");
+            return parts[parts.length - 1];
+        }
+        return path;
+    }
+
+    public String getInternalName(){
+        String slug = getSlug();
+        if (slug != null && !slug.isEmpty()) {
+            return DariUtils.toNormalized("collection/" + slug);
+        }
+        return "";
+    }
+
+    public boolean isPublicTitleEmpty(){
+        Optional<String> opt = Optional.ofNullable(this.getPublicTitle());
+        return !opt.isPresent() || opt.get().trim().isEmpty();
     }
 }
