@@ -161,8 +161,8 @@ public class TitanMissingCollectionCoverImageTests {
         System.out.println("Duration: " + minutes + " minutes");
 
         String filePath = fileStoragePath; // Change this to your file path
-        Map<String, String> missingDataTitanIds = new HashMap<>();
-        Map<String, String> notFoundTitanIds = new HashMap<>();
+        Map<String, Map<String, String>> missingDataCoverImages = new HashMap<>();
+        Map<String, Map<String, String>> noCoverImages = new HashMap<>();
         log.info("Incomplete assets...");
         try {
             List<String> lines = Files.readAllLines(Paths.get(filePath));
@@ -171,20 +171,38 @@ public class TitanMissingCollectionCoverImageTests {
 
                 String collectionId = columns[0];
                 String coverImageId = columns[1];
+                String path = "";
+                try {
+                    path = columns[2];
+                } catch (Exception e) {
+                }
+
+                String language = "";
+                try {
+                    language = columns[3];
+                } catch (Exception e) {
+                }
+
+                Map<String, String> obj = new HashMap<>();
+
+                obj.put("collectionId", collectionId);
+                obj.put("coverImageId", coverImageId);
+                obj.put("path", path);
+                obj.put("language", language);
 
                 if (coverImageId == null || coverImageId.trim().isEmpty() || coverImageId.equalsIgnoreCase("NULL")) {
-                    notFoundTitanIds.put(collectionId, coverImageId);
+                    noCoverImages.put(collectionId, obj);
                     continue;
                 }
 
                 TitanAssetApiResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(coverImageId);
                 if (titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
-                    notFoundTitanIds.put(collectionId, coverImageId);
+                    noCoverImages.put(collectionId, obj);
                     continue;
                 }
                 TitanAsset titanAsset = titanAssetResponse.getResult();
                 if (titanAsset == null) {
-                    notFoundTitanIds.put(collectionId, coverImageId);
+                    noCoverImages.put(collectionId, obj);
                     continue;
                 }
                 //                log.info("title: {}", titanAsset.getTitle());
@@ -193,8 +211,13 @@ public class TitanMissingCollectionCoverImageTests {
                 String title = titanAsset.getTitle();
                 String description = titanAsset.getDescription();
 
+                obj.put("assetTitle", title);
+                obj.put("assetDescription", description);
+                obj.put("assetLanguage", titanAsset.getLanguage());
+
                 if (title == null || title.trim().isEmpty() || description == null || description.trim().isEmpty()) {
-                    missingDataTitanIds.put(collectionId, titanAsset.getAssetID());
+                    obj.put("assetId", titanAsset.getAssetID());
+                    missingDataCoverImages.put(collectionId, obj);
                 }
             }
         } catch (IOException e) {
@@ -203,16 +226,18 @@ public class TitanMissingCollectionCoverImageTests {
 
         log.info("Done");
 
-        log.info("Cover Image with incomplete data count: {}", missingDataTitanIds.size());
-        for (Map.Entry<String, String> entry : missingDataTitanIds.entrySet()) {
-            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
+
+        log.info("Cover Image Not found count: {}", noCoverImages.size());
+        for (Map.Entry<String, Map<String, String>> entry : noCoverImages.entrySet()) {
+            Map<String, String> values = entry.getValue();
+            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + values.get("coverImageId")+ ", path: " + values.get("path")+ ", language: " + values.get("language"));
         }
 
-        log.info("Cover Image Not found count: {}", notFoundTitanIds.size());
-        for (Map.Entry<String, String> entry : notFoundTitanIds.entrySet()) {
-            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + entry.getValue());
+        log.info("Cover Image with incomplete data count: {}", missingDataCoverImages.size());
+        for (Map.Entry<String, Map<String, String>> entry : missingDataCoverImages.entrySet()) {
+            Map<String, String> values = entry.getValue();
+            System.out.println("collectionId: " + entry.getKey() + ", assetId: " + values.get("coverImageId")+  ", path: " + values.get("path")+ ", language: " + values.get("language"));
         }
-
     }
 
     CollectionDetails getCollectionDetails(String collectionId, BufferedWriter writer) {

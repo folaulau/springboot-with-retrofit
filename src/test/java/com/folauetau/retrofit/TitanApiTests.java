@@ -22,6 +22,9 @@ import com.folauetau.retrofit.dto.AssetWrapper;
 import com.folauetau.retrofit.dto.Child;
 import com.folauetau.retrofit.dto.CollectionDetails;
 import com.folauetau.retrofit.dto.TitanCollectionApiResponse;
+import com.folauetau.retrofit.dto.titanasset.TitanAsset;
+import com.folauetau.retrofit.dto.titanasset.TitanAssetApiResponse;
+import com.folauetau.retrofit.rest.TitanAssetRestApi;
 import com.folauetau.retrofit.rest.TitanCollectionRestApi;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -31,17 +34,19 @@ public class TitanApiTests {
 
     ObjectMapper objectMapper = getObjectMapper();
     TitanCollectionRestApi titanRestApi = new TitanCollectionRestApi();
+    TitanAssetRestApi titanAssetRestApi = new TitanAssetRestApi();
 
     Map<String, Integer> collectionMap = new ConcurrentHashMap<>();
     Map<String, String> englishCollectionIds = new ConcurrentHashMap<>();
 
     Map<String, Integer> pathCollectionPaths = new ConcurrentHashMap<>();
 
-    Map<String, Integer> pathAssetPaths = new ConcurrentHashMap<>();
+    // asset path : collection id of the first collection that has this asset path
+    Map<String, AssetPathDTO> pathAssetPaths = new ConcurrentHashMap<>();
 
     Map<String, String> englishPathToCollectionUris = new ConcurrentHashMap<>();
     Map<String, String> langToLanguage = new ConcurrentHashMap<>();
-    private String fileStoragePath = "json_files";
+    private String fileStoragePath = "json_files_full";
 
     private static volatile int count = 0;
 
@@ -139,7 +144,7 @@ public class TitanApiTests {
         boolean rootCollection = rootCollectionId.equals(collectionDetails.getCollectionID());
 
         if(!rootCollection && collectionDetails.isPublicTitleEmpty()){
-            System.out.println("Public title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
+            System.out.println("Empty Public title: "+collectionDetails.getPublicTitle()+", empty: "+collectionDetails.isPublicTitleEmpty()+", path: "+collectionDetails.getPath()+", id: "+collectionDetails.getCollectionID());
             return null;
         }
 
@@ -268,19 +273,48 @@ public class TitanApiTests {
                     }
 
                     String assetPath = asset.getSEOPathWithHash();
-                    String pathWithLanguage = (assetPath + "-" + asset.getLanguage()).trim().toLowerCase();
+                    String assetPathWithLanguage = (assetPath + "-" + collectionDetails.getLanguage()).trim().toLowerCase();
 
-                    if (pathWithLanguage != null && !pathWithLanguage.trim().isEmpty()) {
-                        Integer assetPathCount = pathAssetPaths.get(pathWithLanguage);
+                    if (assetPathWithLanguage != null && !assetPathWithLanguage.trim().isEmpty()) {
+                        AssetPathDTO assetPathDTO = pathAssetPaths.get(assetPathWithLanguage);
 
-                        if (assetPathCount == null) {
-                            pathAssetPaths.put(pathWithLanguage, 1);
+                        if (assetPathDTO == null) {
+                            assetPathDTO = new AssetPathDTO();
+                            assetPathDTO.setCollectionId(collectionDetails.getCollectionID());
+                            assetPathDTO.setCollectionPath(collectionDetails.getPath());
+                            assetPathDTO.setCollectionLanguage(collectionDetails.getLanguage());
+                            assetPathDTO.setAssetId(asset.getAssetID());
+                            assetPathDTO.setAssetPath(assetPath);
+
+                            pathAssetPaths.put(assetPathWithLanguage, assetPathDTO);
                             newAssetWrappers.add(assetWrapper);
                         } else {
-                            pathAssetPaths.put(pathWithLanguage, assetPathCount + 1);
-                            System.out.println("Dup asset, title: " + asset.getPublicTitle() + ", path: " + asset.getSEOPathWithHash() + ", id: " + asset.getAssetID()+ ", collection id: " + collectionDetails.getCollectionID()+", collection path: "+collectionDetails.getPath());
+
+                            if(assetPathDTO.getCollectionLanguage()!=null && collectionDetails.getLanguage() !=null
+                                &&
+                                assetPathDTO.getCollectionLanguage().equalsIgnoreCase(collectionDetails.getLanguage())
+                                &&
+                                assetPathDTO.getAssetId()!=null && !assetPathDTO.getAssetId().equalsIgnoreCase(asset.getAssetID())
+                            ){
+                                System.out.println("Dup asset, title: " + asset.getPublicTitle() + ", path: " + asset.getSEOPathWithHash() + ", id: " + asset.getAssetID()+ ", collection id: " + collectionDetails.getCollectionID()+", collection path: "+collectionDetails.getPath()+", collection id duplicate of: "+assetPathDTO.getCollectionId()+", asset id duplicate of: "+assetPathDTO.getAssetId());
+                            }else {
+                                newAssetWrappers.add(assetWrapper);
+                            }
                         }
                     }
+
+                    if (!collectionDetails.isEnglish()) {
+                        TitanAssetApiResponse titanAssetResponse = titanAssetRestApi.getTitanAsset(asset.getAssetID());
+                        if(titanAssetResponse == null || titanAssetResponse.getStatus().equalsIgnoreCase("failure")) {
+                            continue;
+                        }
+                        TitanAsset titanAsset = titanAssetResponse.getResult();
+                        if(titanAsset == null) {
+                            continue;
+                        }
+                        asset.setRelated(titanAsset.getRelated());
+                    }
+
                 }
                 collectionDetails.setAssets(newAssetWrappers);
 

@@ -8,10 +8,12 @@ import java.util.Map;
 import java.util.Optional;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.folauetau.retrofit.dto.Asset;
 import com.folauetau.retrofit.dto.CollectionDetails;
 import com.folauetau.retrofit.dto.LanguageDetails;
 import com.folauetau.retrofit.dto.Link;
 import com.folauetau.retrofit.dto.Metadata;
+import com.folauetau.retrofit.dto.Related;
 import io.micrometer.common.util.StringUtils;
 import lombok.Data;
 
@@ -41,6 +43,7 @@ public class TitanAsset implements Serializable {
     private String assetID;
     private String sourceType;
     private List<Metadata> metadata;
+    private List<Related> related;
 
     public String getMetadataValueByKey(String key, boolean includeLanguageCheck) {
         return metadata.stream()

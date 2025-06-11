@@ -13,9 +13,9 @@ public class Related  implements Serializable {
     private String language;
     private String mimeType;
     private String sourceType;
-    private int size;
-    private int width;
-    private int height;
+    private Long size;
+    private Long width;
+    private Long height;
     private String assetType;
     private List<String> binaryLanguages;
     private List<Link> links;

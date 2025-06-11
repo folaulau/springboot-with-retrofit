@@ -30,13 +30,14 @@ public class Asset implements Serializable {
 //    private String binaryModifyDate;
 //    private String cdnModifiedDate;
     private List<Metadata> metadata;
+    private List<Related> related;
 //    private List<Collection> collections;
 //    private List<Link> links;
 //c2199b453b7e41a4aeff18aa3446722b,
 
     public String getSEOPathWithHash() {
 
-        if (type.toLowerCase().equals("video")) {
+        if (type != null && type.toLowerCase().equals("video")) {
             return getVideoSEOPath();
         }
 
@@ -67,6 +68,9 @@ public class Asset implements Serializable {
     }
 
     public String getPublicTitle() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataPublicTitle = metadata.stream()
             .filter(m -> "publicTitle".equals(m.getKey()))
             .map(meta -> {
@@ -85,6 +89,9 @@ public class Asset implements Serializable {
     }
 
     public String getPublicDescription() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataPublicDescription = metadata.stream()
             .filter(m -> "publicDescription".equals(m.getKey()))
             .map(meta -> {
@@ -103,6 +110,9 @@ public class Asset implements Serializable {
     }
 
     public String getFileName() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataFileName = metadata.stream()
             .filter(m -> "fileName".equals(m.getKey()))
             .map(meta -> {
@@ -121,6 +131,9 @@ public class Asset implements Serializable {
     }
 
     public String getSEOFileName() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataFileName = metadata.stream()
             .filter(m -> "seoFileName".equals(m.getKey()))
             .map(meta -> {
@@ -139,6 +152,9 @@ public class Asset implements Serializable {
     }
 
     public String getOriginalRepositoryId() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataFileName = metadata.stream()
             .filter(m -> "originalRepositoryId".equals(m.getKey()))
             .map(meta -> {
@@ -157,6 +173,9 @@ public class Asset implements Serializable {
     }
 
     public String getOriginalAssetId() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataFileName = metadata.stream()
             .filter(m -> "originalAssetId".equals(m.getKey()))
             .map(meta -> {
@@ -175,6 +194,9 @@ public class Asset implements Serializable {
     }
 
     public String getTelescopeID() {
+        if(metadata == null || metadata.size() <= 0) {
+            return null;
+        }
         Optional<String> optionalMetadataFileName = metadata.stream()
             .filter(m -> "telescopeID".equals(m.getKey()))
             .map(meta -> {
@@ -282,5 +304,22 @@ public class Asset implements Serializable {
             return "";
         }
         return language.trim();
+    }
+
+    public String getEnglishAssetId() {
+        if (related == null || related.size() <= 0) {
+            return null;
+        }
+
+        Optional<Related> optionalEnglishAsset = related.stream()
+            .filter(a -> a.getRelationshipType().equalsIgnoreCase("LANGUAGE_DERIVATIVE_OF"))
+            .filter(a -> a.getLanguage().equalsIgnoreCase("eng"))
+            .findFirst();
+
+        if (optionalEnglishAsset.isPresent()) {
+            return optionalEnglishAsset.get().getId();
+        } else {
+            return null;
+        }
     }
 }
