@@ -296,7 +296,7 @@ public class TitanApiTests {
                                 &&
                                 assetPathDTO.getAssetId()!=null && !assetPathDTO.getAssetId().equalsIgnoreCase(asset.getAssetID())
                             ){
-                                System.out.println("Dup asset, title: " + asset.getPublicTitle() + ", path: " + asset.getSEOPathWithHash() + ", id: " + asset.getAssetID()+ ", collection id: " + collectionDetails.getCollectionID()+", collection path: "+collectionDetails.getPath()+", collection id duplicate of: "+assetPathDTO.getCollectionId()+", asset id duplicate of: "+assetPathDTO.getAssetId());
+                                System.out.println("Dup asset, title: " + asset.getPublicTitle() + ", path: " + asset.getSEOPathWithHash() + ", id: " + asset.getAssetID()+ ", collection id: " + collectionDetails.getCollectionID()+", collection path: "+collectionDetails.getPath()+", collection id duplicate of: "+assetPathDTO.getCollectionId()+", asset id duplicate of: "+assetPathDTO.getAssetId()+", assetPathWithLanguage: "+assetPathWithLanguage);
                             }else {
                                 newAssetWrappers.add(assetWrapper);
                             }
