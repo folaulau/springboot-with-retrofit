@@ -57,8 +57,12 @@ public class TitanMiniApiTests {
      * Images - eng - 9469dcd2e95b0f73fd237301b21fecbd372d2e60
      *
      * Images - span - 4f8489a86d15b8824bef8775080622b95abaa78a
+     *
+     * Video Collections - eng - 8d8905cef700b03cb3afaabc032a3af882139e59
+     *
+     * Video - span - a6b69394a436a7ff9e4dea2170944aa0eb0066a4
      */
-    private List<String> rootCollectionsToImport = List.of("38b9e81d44343bf4204296241568235d6e8e77c6","fe9b244b1ac04e0aa0cd91fb9521df2f","9469dcd2e95b0f73fd237301b21fecbd372d2e60","4f8489a86d15b8824bef8775080622b95abaa78a");
+    private List<String> rootCollectionsToImport = List.of("8d8905cef700b03cb3afaabc032a3af882139e59","a6b69394a436a7ff9e4dea2170944aa0eb0066a4");
 
     private void addEnglishCollectionUri(String collectionUri, String collectionId, String path) {
         if (collectionUri == null || collectionUri.trim().isEmpty()) {

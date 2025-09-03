@@ -21,6 +21,7 @@ public class CollectionDetails implements Serializable {
     private String sourceCollectionId;
     private String parentCollectionID;
     private String parentCollectionPath;
+    private String parentLanguage;
     private String collectionType;
     private String path;
     private String collectionID;

@@ -172,6 +172,12 @@ public class TitanApiTests {
             return null;
         }
 
+        // use parent collection language if the collection language is null or empty
+        if((collectionDetails.getLanguage() == null || collectionDetails.getLanguage().trim().isEmpty())
+            && parent != null && parent.getLanguage() != null && !parent.getLanguage().trim().isEmpty()){
+            collectionDetails.setLanguage(parent.getLanguage());
+        }
+
         if (collectionDetails.isEnglish()) {
             String collectionUri = collectionDetails.getCollectionUri();
             if (collectionUri == null || collectionUri.trim().isEmpty()) {
@@ -221,6 +227,7 @@ public class TitanApiTests {
         if (parent != null) {
             collectionDetails.setParentCollectionID(parent.getCollectionID());
             collectionDetails.setParentCollectionPath(parent.getPath());
+            collectionDetails.setParentLanguage(parent.getLanguage());
         }
 
         boolean hasChildren = collectionDetails.getChildren() != null && collectionDetails.getChildren().size() > 0;
@@ -313,6 +320,8 @@ public class TitanApiTests {
                             continue;
                         }
                         asset.setRelated(titanAsset.getRelated());
+                    }else{
+                        // get translated asset
                     }
 
                 }
