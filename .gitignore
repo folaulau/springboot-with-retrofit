@@ -34,3 +34,5 @@ build/
 ### VS Code ###
 .vscode/
 /json_files
+/json_files_full
+/json_files_mini
